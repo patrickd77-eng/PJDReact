@@ -27,6 +27,11 @@
     text-align: center;
     width: 100%;
 }
+
+a > i {
+    color:white;
+}
+
 #banner:before {
     -moz-transition: opacity 1.5s ease;
     -webkit-transition: opacity 1.5s ease;
@@ -101,14 +106,30 @@
     z-index: 1;
 }
 #footer {
-    background-color: #111;
-    color: rgba(255,255,255,.5);
+    background-color: #212529;
+    color: rgba(255, 255, 255, 0.877);
     padding: 2rem 0 2rem 0;
 }
+.navbar-dark .navbar-toggler {
+    color: rgba(255,255,255,1);
+    border-color: none;
+}
+
+.bg-dark{
+    background-color:  #212529 !important;
+}
+.card{
+    background-color: transparent;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+}
 #footer .copyright {
-    border-top: 1px solid;
-    font-size: .8rem;
-    opacity: .5;
+    
+    margin-top: 2rem;
+    font-size: .75rem;
+    opacity: .8;
     padding: 1rem 0;
     text-align: center;
 }

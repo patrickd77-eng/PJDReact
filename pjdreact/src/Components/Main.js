@@ -1,11 +1,5 @@
 import React, { Component } from "react";
-import {
-  BrowserRouter as Router,
-  Route,
-  Link,
-  NavLink,
-  HashRouter
-} from "react-router-dom";
+import { Route, NavLink, HashRouter } from "react-router-dom";
 import Home from "./Home";
 import Stuff from "./Projects";
 import Contact from "./Contact";
@@ -15,9 +9,9 @@ class Main extends Component {
     return (
       <HashRouter>
         <div>
-          <nav class="navbar sticky-top navbar-dark bg-dark ">
+          <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark ">
             <NavLink exact className="navbar-brand" to="/">
-              🏠
+            <i class="fa fa-home" aria-hidden="true"></i>
             </NavLink>
             <button
               class="navbar-toggler"
@@ -52,7 +46,10 @@ class Main extends Component {
               </header>
               <p>Web Developer Undergraduate</p>
             </div>
-            <img src="https://wallpapermemory.com/uploads/695/code-wallpaper-hd-1080p-53043.jpg"></img>
+            <img
+              alt="code"
+              src="https://wallpapermemory.com/uploads/695/code-wallpaper-hd-1080p-53043.jpg"
+            ></img>
           </section>
 
           <section className="wrapper">
@@ -67,42 +64,30 @@ class Main extends Component {
             <div className="inner">
               <div className="content">
                 <section>
-                  <h4>Networks</h4>
-
-                  <i
-                    className="icon fab fa-fw fa-github"
-                    aria-hidden="true"
-                  ></i>
-                  <a href="https://github.com/patrickd77-eng/" target="_blank">
-                    GitHub
-                  </a>
-                  <i
-                    className="icon fab fa-fw fa-linkedin"
-                    aria-hidden="true"
-                  ></i>
-                  <a
-                    href="https://www.linkedin.com/in/pdavis97/"
-                    target="_blank"
-                  >
-                    LinkedIn
-                  </a>
-                  <i
-                    className="icon fa fa-fw fa-envelope-o"
-                    aria-hidden="true"
-                  ></i>
-                  <a href="mailto:patrick_davis97@hotmail.co.uk?subject=Enquiry from your website">
-                    Email
-                  </a>
-                  <i
-                    className="icon fa fa-fw fa-graduation-cap"
-                    aria-hidden="true"
-                  ></i>
-                  <a
-                    href="https://www.bournemouth.ac.uk/study/courses/bsc-hons-business-information-technology"
-                    target="_blank"
-                  >
-                    My Course
-                  </a>
+                  <div class="row">
+                    <div class="container">
+                    <div>
+                      <a href="https://github.com/patrickd77-eng/" target="_blank">
+                       <i className="icon fab fa-fw fa-github" aria-hidden="true"/>
+                      </a>
+                      </div>
+                      <div>
+                      <a href="https://www.linkedin.com/in/pdavis97/" target="_blank">
+                       <i className="icon fab fa-fw fa-linkedin" aria-hidden="true"/>
+                      </a>
+                      </div>
+                      <div>
+                      <a href="mailto:patrick_davis97@hotmail.co.uk?subject=Enquiry from your website" target="_blank">
+                       <i className="icon fa fa-fw fa-envelope" aria-hidden="true"/>
+                      </a>
+                      </div>
+                      <div>
+                      <a href="https://www.bournemouth.ac.uk/study/courses/bsc-hons-business-information-technology" target="_blank">
+                       <i className="icon fa fa-fw fa-graduation-cap" aria-hidden="true"/>
+                      </a>
+                      </div>
+                     </div>
+                  </div>
                 </section>
               </div>
             </div>
