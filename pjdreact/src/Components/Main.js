@@ -58,7 +58,8 @@ class Main extends Component {
               <Route path="/stuff" component={Stuff} />
               <Route path="/contact" component={Contact} />
             </div>
-          </section>
+</section>
+          
 
           <footer id="footer">
             <div className="inner">
@@ -83,7 +84,7 @@ class Main extends Component {
                       </div>
                       <div>
                       <a href="https://www.bournemouth.ac.uk/study/courses/bsc-hons-business-information-technology" target="_blank">
-                       <i className="icon fa fa-fw fa-graduation-cap" aria-hidden="true"/>
+                       <i className="icon fa fa-fw fa-user-graduate" aria-hidden="true"/>
                       </a>
                       </div>
                      </div>
