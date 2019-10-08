@@ -1,0 +1,118 @@
+#banner {
+    -ms-flex-align: center;
+    -ms-flex-pack: center;
+    background-color: #1b1b1b;
+    color: rgba(255,255,255,.5);
+    -moz-align-items: center;
+    -webkit-align-items: center;
+    -ms-align-items: center;
+    align-items: center;
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    -moz-justify-content: center;
+    -webkit-justify-content: center;
+    -ms-justify-content: center;
+    justify-content: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top: 0;
+    display: -ms-flexbox;
+    height: 15rem !important;
+    min-height: 15rem;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+#banner:before {
+    -moz-transition: opacity 1.5s ease;
+    -webkit-transition: opacity 1.5s ease;
+    -ms-transition: opacity 1.5s ease;
+    transition: opacity 1.5s ease;
+    -moz-transition-delay: 0.5s;
+    -webkit-transition-delay: 0.5s;
+    -ms-transition-delay: 0.5s;
+    transition-delay: 0.5s;
+    background: #111;
+    content: '';
+    display: block;
+    height: 100%;
+    left: 0;
+    opacity: .75;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+#banner:after {
+    content: ' ';
+    display: block;
+    height: 100%;
+    left: 0;
+    opacity: .45;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+#banner > .inner {
+    -moz-transform: scale(1);
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    -moz-transition: opacity 1s ease,-moz-transform 1s ease;
+    -webkit-transition: opacity 1s ease,-webkit-transform 1s ease;
+    -ms-transition: opacity 1s ease,-ms-transform 1s ease;
+    transition: opacity 1s ease,transform 1s ease;
+    opacity: 1;
+    position: absolute;
+    z-index: 3;
+}
+.inner {
+    margin: 0 auto;
+    width: 200rem;
+    max-width: calc(100% - 6rem);
+}
+#banner h1 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+#banner h1, #banner h2, #banner h3, #banner h4, #banner h5, #banner h6 {
+    color: #fff;
+}
+#banner > .inner > :last-child {
+    margin-bottom: 0;
+    font-weight: 700;
+    color: #f5f5f5;
+}
+.center{
+    text-align: center;
+}
+#banner p {
+    font-size: 1.5rem;
+}
+.wrapper {
+    padding: 2rem 0 2rem 0;
+    position: relative;
+    z-index: 1;
+}
+#footer {
+    background-color: #111;
+    color: rgba(255,255,255,.5);
+    padding: 2rem 0 2rem 0;
+}
+#footer .copyright {
+    border-top: 1px solid;
+    font-size: .8rem;
+    opacity: .5;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
