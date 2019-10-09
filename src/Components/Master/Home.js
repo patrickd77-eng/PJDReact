@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Route, HashRouter } from "react-router-dom";
-import Intro from "../IntroContent/Intro";
+import Intro from "../Introduction/Intro";
 import Projects from "../ProjectsPage/Projects";
 import Contact from "../ContactPage/Contact";
 import About from "../AboutPage/About";
