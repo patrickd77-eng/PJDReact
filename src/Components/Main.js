@@ -3,15 +3,15 @@ import { Route, NavLink, HashRouter } from "react-router-dom";
 import Home from "./Home";
 import Stuff from "./Projects";
 import Contact from "./Contact";
-import ThisSite from "./ThisSite";
 import About from "./About";
+import Code from "../Media/Code.jpg"
 
 class Main extends Component {
   render() {
     return (
       <HashRouter>
         <div>
-          <nav class="navbar navbar-expand-sm sticky-top navbar-dark bg-dark ">
+          <nav class="navbar navbar-expand-md sticky-top navbar-dark bg-dark ">
             <NavLink exact className="navbar-brand" to="/">
               <i class="fa fa-home" aria-hidden="true"></i>
             </NavLink>
@@ -37,9 +37,6 @@ class Main extends Component {
                 <NavLink className="nav-item nav-link" to="/contact">
                   Contact
                 </NavLink>
-                <NavLink className="nav-item nav-link" to="/this-site">
-                  This Site
-                </NavLink>
                 <NavLink className="nav-item nav-link" to="/about">
                   About Me
                 </NavLink>
@@ -56,16 +53,16 @@ class Main extends Component {
             </div>
             <img
               alt="code"
-              src="https://wallpapermemory.com/uploads/695/code-wallpaper-hd-1080p-53043.jpg"
+              src={Code}
             ></img>
           </section>
 
-          <section className="wrapper">
+
+          <section>
             <div className="content section">
               <Route exact path="/" component={Home} />
               <Route path="/stuff" component={Stuff} />
               <Route path="/contact" component={Contact} />
-              <Route path="/this-site" component={ThisSite} />
               <Route path="/about" component={About} />
             </div>
           </section>
@@ -78,23 +75,23 @@ class Main extends Component {
                   <div class="row">
                     <div class="container">
                       <div>
-                        <a  title="My GitHub" href="https://github.com/patrickd77-eng/" target="_blank">
-                          <i className="icon fab fa-fw fa-github" aria-hidden="true" />
+                        <a title="My GitHub" href="https://github.com/patrickd77-eng/" target="_blank">
+                          <i className="fab fa-github" aria-hidden="true" />
                         </a>
                       </div>
                       <div>
                         <a title="My LinkedIn" href="https://www.linkedin.com/in/pdavis97/" target="_blank">
-                          <i className="icon fab fa-fw fa-linkedin" aria-hidden="true" />
+                          <i className="fab  fa-linkedin" aria-hidden="true" />
                         </a>
                       </div>
                       <div>
-                        <NavLink title="Contact Me" className="nav-item nav-link" to="/contact">
-                          <i className="icon fas fa-comments" aria-hidden="true" />
+                        <NavLink title="Contact Me" to="/contact">
+                          <i className="fas fa-comment" aria-hidden="true" />
                         </NavLink>
                       </div>
                       <div>
                         <a title="My Degree" href="https://www.bournemouth.ac.uk/study/courses/bsc-hons-business-information-technology" target="_blank">
-                          <i className="icon fa fa-fw fa-user-graduate" aria-hidden="true" />
+                          <i className="fa fa-user-graduate" aria-hidden="true" />
                         </a>
                       </div>
                     </div>

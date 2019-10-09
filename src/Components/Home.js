@@ -4,9 +4,9 @@ class Home extends React.Component {
   render() {
     return (
       <div>
-        <section className="wrapper">
-          <div class="inner">
-            <div class="highlights">
+        <section className="wrapper ">
+          <div class="home-inner">
+            <div class="highlights ">
               <section>
                 <div class="content">
                   <header>

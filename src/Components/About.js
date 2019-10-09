@@ -53,11 +53,11 @@ class About extends React.Component {
                                 <div class="accordion" id="accordion">
                                     <div class="card align-items-center">
                                         <div class="card-header " id="heading">
-                                      
+
                                             <button class="btn btn-link btn-lg " type="button" data-toggle="collapse" data-target="#collapse" aria-expanded="true" aria-controls="collapse">
                                                 Skills / Tools Used
-                                               <br/>
-                                                    <span class="fas fa-chevron-circle-down" aria-hidden="true"> </span>
+                                               <br />
+                                                <span class="fas fa-chevron-circle-down" aria-hidden="true"> </span>
                                             </button>
                                         </div>
                                         <div id="collapse" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">

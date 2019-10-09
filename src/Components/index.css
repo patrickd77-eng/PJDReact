@@ -1,3 +1,7 @@
+* {
+    font-family: 'Noto Sans', sans-serif;
+}
+
 #banner {
     -ms-flex-align: center;
     -ms-flex-pack: center;
@@ -79,10 +83,29 @@ a>i {
     z-index: 3;
 }
 
+@media only screen and (min-width: 1000px) {
+    .content>p {
+        margin-right: 25%;
+        margin-left: 25%;
+    }
+}
+
+@media only screen and (min-width: 1500px) {
+    .content>p {
+        margin-right: 15%;
+        margin-left: 15%;
+    }
+}
+
 .inner {
     margin: 0 auto;
     width: 200rem;
     max-width: calc(100% - 6rem);
+}
+
+.home-inner {
+    margin: 1em auto 1em auto;
+    max-width: 80%;
 }
 
 #banner h1 {
@@ -120,16 +143,18 @@ a>i {
 }
 
 .bg-dark {
-    background-color: rgba(17, 17, 17, 0.950) !important;
+    background-color: rgba(17, 17, 17, 0.97) !important;
 }
 
 .card {
-    background-color:  rgba(0, 0, 0, .03);
+    background-color: rgba(0, 0, 0, .03);
     margin: 1em 0em;
 }
-.card-header{
+
+.card-header {
     background-color: transparent !important;
 }
+
 .accordion>.card {
     background-color: rgba(0, 0, 0, .03);
 }
@@ -177,18 +202,7 @@ header.special {
 .highlights {
     width: 100%;
     margin: 2.5rem 0;
-    display: -moz-flex;
-    display: -webkit-flex;
-    display: -ms-flex;
-    display: flex;
-    -moz-flex-wrap: wrap;
-    -webkit-flex-wrap: wrap;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    -moz-align-items: -moz-stretch;
-    -webkit-align-items: -webkit-stretch;
-    -ms-align-items: -ms-stretch;
-    align-items: stretch;
+    display: block;
 }
 
 .container>div>a>i {
