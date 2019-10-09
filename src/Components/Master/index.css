@@ -157,6 +157,7 @@ a>i {
 
 .accordion>.card {
     background-color: rgba(0, 0, 0, .03);
+    border-bottom:1px !important;
 }
 
 .card-body {

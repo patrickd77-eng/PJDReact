@@ -5,7 +5,7 @@ class ContactForm extends React.Component {
         return (
             <div className="card card-outline-secondary">
                 <div className="card-header">
-                    <h3 className="mb-0">Send Me A Message</h3>
+                    <h3 className="mb-0">Let's talk</h3>
                 </div>
                 <div className="card-body">
                     <form className="form" role="form" data-netlify="true">

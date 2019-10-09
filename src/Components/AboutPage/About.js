@@ -141,56 +141,31 @@ class About extends React.Component {
                                     <ul className="list-group list-group-horizontal-sm">
                                         <li className="list-group-item">The Complete Web Developer in 2019: Zero to Mastery
                                             By Andrei Neagoie
-                                    <i className="far fa-check-circle" />
                                         </li>
-
                                         <li className="list-group-item">The Complete Junior to Senior Web Developer Roadmap (2019)
-                                    By Andrei Neagoie
-                                    <i className="far fa-check-circle" />
-                                        </li>
-
+                                             By Andrei Neagoie
+                                       </li>
                                         <li className="list-group-item">Complete ASP NET MVC Web Development - Newbie to Ninja!
-                                    By Brett Hargreaves
-                                    <i className="far fa-check-circle" />
-                                        </li>
+                                             By Brett Hargreaves
+                                      </li>
                                     </ul>
                                 </div>
-                            </div>
-
-                        </div>
-
-                    </div>
-                </section>
-                <section className="wrapper ">
-                    <div className="container  mb-4">
-                        <div className="col-lg-12">
-                            <h2>Other Skills</h2>
-                            <div className="card">
-                                <div className="card-body">
-                                    <h5 className="card-title">Computer Builds and Upgrades</h5>
-                                    <p className="card-text"> Computer Builds and Upgrades
-                                    Adept at upgrading and building PCs for any requirement. </p>
-                                </div>
-                            </div>
-                            <div className="card">
-                                <div className="card-body">
-                                    <h5 className="card-title">Computer, Laptop, Tablet and Smartphone Repairs</h5>
-                                    <p className="card-text">
-                                        Can overcome stubborn spyware/malware and identify broken/underperforming hardware. </p>
-                                </div>
-                            </div>
-                            <div className="card">
-                                <div className="card-body">
-                                    <h5 className="card-title">IoT Device Experience</h5>
-                                    <p className="card-text">
-                                        Use/developent with raspberry pi's and smart speakers. </p>
-                                </div>
-                            </div>
-                            <div className="card">
-                                <div className="card-body">
-                                    <h5 className="card-title">Transcription & Copywriting</h5>
-                                    <p className="card-text">
-                                        Adept at content migration etc. </p>
+                                <div className="mt-5 mb-5">
+                                    <h2>Other Skills</h2>
+                                    <ul className="list-group list-group-horizontal-sm">
+                                        <li className="list-group-item"><strong>Computer Builds and Upgrades</strong>
+                                            <p>  Adept at upgrading and building PCs for any requirement.</p>
+                                        </li>
+                                        <li className="list-group-item"><strong>Computer Repairs</strong>
+                                            <p> Can overcome stubborn spyware/malware and identify broken hardware.</p>
+                                        </li>
+                                        <li className="list-group-item"><strong>IoT Device Experience</strong>
+                                            <p> Use/developent with raspberry pi's and smart speakers.</p>
+                                        </li>
+                                        <li className="list-group-item"><strong>Transcription & Copywriting</strong>
+                                            <p>   Adept at content migration etc.</p>
+                                        </li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
