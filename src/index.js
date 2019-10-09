@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './Components/Pages/index.css';
-import Main from './Components/Pages/Main';
+import Home from './Components/Pages/Home';
 
-ReactDOM.render(<Main />, document.getElementById('root'));
+ReactDOM.render(<Home />, document.getElementById('root'));
