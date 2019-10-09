@@ -11,7 +11,7 @@ class Stuff extends React.Component {
         <section className="wrapper">
           <div className="inner">
             <h1>Projects</h1>
-            <p>Here's some of my projects. Check out my <a title="My GitHub" href="https://github.com/patrickd77-eng/" target="_blank">GitHub</a> for more info.</p>
+            <p>Here's some of my projects. Check out my <a title="My GitHub" href="https://github.com/patrickd77-eng/" rel="noopener noreferrer" target="_blank">GitHub</a> for more info.</p>
 
             <div class="card mb-3" >
               <div class="row no-gutters">
@@ -25,7 +25,7 @@ class Stuff extends React.Component {
                     <p class="card-text">  I included Fontawesome & hvr.css for further styling.</p>
                     <p class="card-text">  The site is built with .NET and the CMS is Umbraco V8.</p>
                     <p class="card-text">The motivation for this site help out an upcoming music duo increase brand awareness and have a responsive and smooth digital platform to communicate through.</p>
-                    <p class="card-text"><small class="text-muted">Released October 2019 | <a title="Link to site" target="_blank" href="https://www.empathsofficial.com">Link To Site</a> </small></p>
+                    <p class="card-text"><small class="text-muted">Released October 2019 | <a title="Link to site" target="_blank" rel="noopener noreferrer" href="https://www.empathsofficial.com">Link To Site</a> </small></p>
                   </div>
                 </div>
               </div>
@@ -42,7 +42,7 @@ class Stuff extends React.Component {
                     <p class="card-text">
                       This is a Bootstrap 4 Skeleton that I released using Apostrophe CMS. Check it out! I figured it'd help someone starting out with the CMS, which is useful for some bespoke projects.</p>
                     <p>The community behind the CMS is quite small and it isn't something you'd see in Industry, but it's relatively simple to use and could power quite basic sites.</p>
-                    <p class="card-text"><small class="text-muted">September 2019 | <a title="Link to Repo" target="_blank" href="https://github.com/patrickd77-eng/ApostropheCMSBootstrap4Skeleton">Link To Repo</a> </small></p>
+                    <p class="card-text"><small class="text-muted">September 2019 | <a title="Link to Repo" target="_blank" rel="noopener noreferrer" href="https://github.com/patrickd77-eng/ApostropheCMSBootstrap4Skeleton">Link To Repo</a> </small></p>
                   </div>
                 </div>
               </div>

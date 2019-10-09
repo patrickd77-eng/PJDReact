@@ -13,7 +13,7 @@ class Home extends React.Component {
                     <i class="icon far fa-file-code" ></i>
                     <h3>Experience in Industry</h3>
                   </header>
-                  <p><span>My industry placement was over a year long, spent at a </span><a href="http://www.greenwoodcampbell.com/">prominent digital agency</a><span> and then briefly worked for a </span><a href="http://www.lv.com/">major insurer</a><span>. This was mostly .NET web development and content management respectively.</span></p>
+                  <p><span>My industry placement was over a year long, spent at a </span><a rel="noopener noreferrer" target="_blank" href="http://www.greenwoodcampbell.com/">prominent digital agency</a><span> and then briefly worked for a </span><a rel="noopener noreferrer" target="_blank" href="http://www.lv.com/">major insurer</a><span>. This was mostly .NET web development and content management respectively.</span></p>
                 </div>
               </section>
               <section>
