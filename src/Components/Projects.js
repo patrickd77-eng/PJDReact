@@ -6,6 +6,7 @@ class Stuff extends React.Component {
       <div>
        <section className="wrapper"> 
        <div className="inner">
+       
             <h1>Projects</h1>
             <p>Here's some of my projects.</p>
             </div>
