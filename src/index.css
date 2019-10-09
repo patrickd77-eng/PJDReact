@@ -2,6 +2,14 @@
     font-family: 'Noto Sans', sans-serif;
 }
 
+.plain {
+    list-style: none;
+}
+
+ul>a {
+    color: #212529;
+}
+
 #banner {
     -ms-flex-align: center;
     -ms-flex-pack: center;
@@ -32,7 +40,12 @@
     width: 100%;
 }
 
-a>i {
+div>a>i {
+    color: #171717;
+    font-weight: 100;
+}
+
+.container>div>a>i {
     color: white;
 }
 
@@ -97,10 +110,14 @@ a>i {
     }
 }
 
+.card-header {
+    border-bottom: none;
+}
+
 .inner {
     margin: 0 auto;
     width: 200rem;
-    max-width: calc(100% - 6rem);
+    max-width: calc(100% - 2rem);
 }
 
 .home-inner {
@@ -123,6 +140,20 @@ a>i {
     color: #f5f5f5;
 }
 
+#banner img {
+    -moz-transform: translateX(50%) translateY(50%);
+    -webkit-transform: translateX(50%) translateY(50%);
+    -ms-transform: translateX(50%) translateY(50%);
+    transform: translateX(50%) translateY(50%);
+    bottom: 50%;
+    height: auto;
+    min-height: 100%;
+    min-width: 100%;
+    overflow: hidden;
+    position: absolute;
+    right: 50%;
+    width: auto;
+}
 .center {
     text-align: center;
 }
@@ -143,7 +174,7 @@ a>i {
 }
 
 .bg-dark {
-    background-color: rgba(17, 17, 17, 0.97) !important;
+    background-color: rgba(17, 17, 17, 1) !important;
 }
 
 .card {
@@ -157,7 +188,7 @@ a>i {
 
 .accordion>.card {
     background-color: rgba(0, 0, 0, .03);
-    border-bottom:1px !important;
+    border-bottom: 1px !important;
 }
 
 .card-body {

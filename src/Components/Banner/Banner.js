@@ -7,7 +7,7 @@ class Banner extends React.Component {
             <section id="banner">
                 <div className="inner">
                     <header className="special">
-                        <h2>Patrick Jonathan Davis</h2>
+                        <h2>Patrick J Davis</h2>
                     </header>
                     <p>Web Developer Undergraduate</p>
                 </div>

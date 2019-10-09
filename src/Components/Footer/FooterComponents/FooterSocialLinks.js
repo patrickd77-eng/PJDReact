@@ -18,11 +18,6 @@ class FooterSocialLinks extends React.Component {
                 </a>
             </div>
             <div>
-                <NavLink title="Contact Me" to="/contact">
-                    <i className="fas fa-comment" aria-hidden="true" />
-                </NavLink>
-            </div>
-            <div>
                 <a title="My Degree" href="https://www.bournemouth.ac.uk/study/courses/bsc-hons-business-information-technology" rel="noopener noreferrer" target="_blank">
                     <i className="fa fa-user-graduate" aria-hidden="true" />
                 </a>

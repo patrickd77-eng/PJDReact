@@ -66,21 +66,21 @@ class About extends React.Component {
                                                     <li className="list-group-item d-flex justify-content-between align-items-center">
                                                         <strong>C#</strong>
                                                         <span className="badge badge-primary badge-pill">Working Experience</span>
-                                                        <span className="badge badge-primary badge-pill">Self Taught</span>
+                                                        <span className="badge badge-primary badge-pill">Self-Taught</span>
                                                     </li>
                                                     <li className="list-group-item d-flex justify-content-between align-items-center">
                                                         <strong>.NET</strong>
                                                         <span className="badge badge-primary badge-pill">Working Experience</span>
-                                                        <span className="badge badge-primary badge-pill">Self Taught</span>
+                                                        <span className="badge badge-primary badge-pill">Self-Taught</span>
                                                     </li>
                                                     <li className="list-group-item d-flex justify-content-between align-items-center">
                                                         <strong>.NET Core</strong>
-                                                        <span className="badge badge-primary badge-pill">Self Taught</span>
+                                                        <span className="badge badge-primary badge-pill">Self-Taught</span>
                                                     </li>
                                                     <li className="list-group-item d-flex justify-content-between align-items-center">
-                                                        <strong>Umbraco 7 or 8</strong>
+                                                        <strong>Umbraco 7 & 8</strong>
                                                         <span className="badge badge-primary badge-pill">Working Experience</span>
-                                                        <span className="badge badge-primary badge-pill">Self Taught</span>
+                                                        <span className="badge badge-primary badge-pill">Self-Taught</span>
                                                     </li>
                                                     <li className="list-group-item d-flex justify-content-between align-items-center">
                                                         <strong>  Python</strong>
