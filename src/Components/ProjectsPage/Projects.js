@@ -16,7 +16,7 @@ class Stuff extends React.Component {
             <div className="card mb-3" >
               <div className="row no-gutters">
                 <div className="col-md-4">
-                  <img draggable="false" src={Empaths} className="card-img" alt="Empaths Musicians" />
+                  <a title="Link to Empaths Site" target="_blank" rel="noopener noreferrer" href="https://www.empathsofficial.com"> <img draggable="false" src={Empaths} className="card-img" alt="Empaths Musicians" /></a>
                 </div>
                 <div className="col-md-8">
                   <div className="card-body">
@@ -34,14 +34,14 @@ class Stuff extends React.Component {
             <div className="card mb-3" >
               <div className="row no-gutters">
                 <div className="col-md-4">
-                  <img draggable="false" src={Apostrophe} className="card-img" alt="Apostrophe CMS Logo" />
+                  <a title="Link to Repo" target="_blank" rel="noopener noreferrer" href="https://github.com/patrickd77-eng/ApostropheCMSBootstrap4Skeleton"> <img draggable="false" src={Apostrophe} className="card-img" alt="Apostrophe CMS Logo" /></a>
                 </div>
                 <div className="col-md-8">
                   <div className="card-body">
                     <h5 className="card-title">Apostrophe CMS Skeleton</h5>
                     <p className="card-text">
                       This is a Bootstrap 4 Skeleton that I released using Apostrophe CMS. Check it out! I figured it'd help someone starting out with the CMS, which is useful for some bespoke projects.</p>
-                    <p>The community behind the CMS is quite small and it isn't something you'd see in Industry, but it's relatively simple to use and could power quite basic sites.</p>
+                    <p>The community behind the CMS is quite small and it isn't something you'd see in industry, but it's relatively simple to use and could power quite basic sites.</p>
                     <p className="card-text"><small className="text-muted">September 2019 | <a title="Link to Repo" target="_blank" rel="noopener noreferrer" href="https://github.com/patrickd77-eng/ApostropheCMSBootstrap4Skeleton">Link To Repo</a> </small></p>
                   </div>
                 </div>
@@ -93,7 +93,7 @@ class Stuff extends React.Component {
                   <div className="card-body">
                     <h5 className="card-title">This Website</h5>
                     <p className="card-text">
-                      Originally, I'd designed by site using .NET 4.7 and Umbraco 8. At the time this felt great, but then I thought...</p>
+                      Originally, <a title="Link to My Old Site" target="_blank" rel="noopener noreferrer" href="https://www.umbraco.patrickdavis.co.uk">I'd designed my site using .NET 4.7 and Umbraco 8.</a> At the time this felt great, but then I thought...</p>
                     <p className="card-text">I don't need a SQL database for my site, I don't need all the extra frameworks... So why not simplify everything?</p>
                     <p className="card-text">I then used React with Router and the Bootstrap 4 CDN. I took design elements from my site but wrote it entirely from scratch as an SPA.</p>
                     <p className="card-text"><small className="text-muted">Released October 2019 | <a title="Link to Repo" target="_blank" rel="noopener noreferrer" href="https://www.umbraco.patrickdavis.co.uk">Link To Old Umbraco Site</a> </small></p>
