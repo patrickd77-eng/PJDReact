@@ -19,7 +19,7 @@ class Intro extends React.Component {
                   <div class="row">
                     <div class="col">
                       <NavLink to="/projects">
-                        <i className="icon fas fa-project-diagram"  />
+                        <i className="icon fas fa-project-diagram" />
                         <p>Projects</p>
                       </NavLink></div>
                     <div class="col">

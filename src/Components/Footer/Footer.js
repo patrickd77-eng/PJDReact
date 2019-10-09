@@ -17,7 +17,7 @@ class Footer extends React.Component {
                         </section>
                     </div>
                 </div>
-               <FooterCopyright/>
+                <FooterCopyright />
             </footer>
         );
     }

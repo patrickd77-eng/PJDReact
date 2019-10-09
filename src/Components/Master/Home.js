@@ -23,7 +23,7 @@ class Home extends Component {
               <Route exact path="/about" component={About} />
             </div>
           </section>
-        <Footer/>
+          <Footer />
         </div>
       </HashRouter>
     );

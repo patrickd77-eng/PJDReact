@@ -93,7 +93,7 @@ class Stuff extends React.Component {
                   <div className="card-body">
                     <h5 className="card-title">This Website</h5>
                     <p className="card-text">
-                    Originally, I'd designed by site using .NET 4.7 and Umbraco 8. At the time this felt great, but then I thought...</p>
+                      Originally, I'd designed by site using .NET 4.7 and Umbraco 8. At the time this felt great, but then I thought...</p>
                     <p className="card-text">I don't need a SQL database for my site, I don't need all the extra frameworks... So why not simplify everything?</p>
                     <p className="card-text">I then used React with Router and the Bootstrap 4 CDN. I took design elements from my site but wrote it entirely from scratch as an SPA.</p>
                     <p className="card-text"><small className="text-muted">Released October 2019 | <a title="Link to Repo" target="_blank" rel="noopener noreferrer" href="https://www.umbraco.patrickdavis.co.uk">Link To Old Umbraco Site</a> </small></p>

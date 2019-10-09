@@ -8,7 +8,7 @@ class ContactForm extends React.Component {
                     <h3 className="mb-0">Let's talk</h3>
                 </div>
                 <div className="card-body">
-                    <form className="form" role="form" data-netlify="true">
+                    <form className="form" data-netlify="true">
                         <fieldset>
                             <label htmlFor="name2" className="mb-0">Name*</label>
                             <div className="row mb-1">
