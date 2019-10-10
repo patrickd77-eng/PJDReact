@@ -10,7 +10,7 @@ class ContactForm extends React.Component {
                         <h3 className="mb-0">Let's talk</h3>
                     </div>
                     <div className="card-body">
-                        <form className="form" name="contact_form" netlify method="POST" encType="application/x-www-form-urlencoded">
+                        <form className="form" action="#" name="contact_form" netlify method="POST" encType="application/x-www-form-urlencoded">
                             <p class="hidden">
                                 <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
                             </p>
