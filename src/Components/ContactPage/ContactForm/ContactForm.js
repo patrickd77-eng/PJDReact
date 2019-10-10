@@ -10,27 +10,27 @@ class ContactForm extends React.Component {
                         <h3 className="mb-0">Let's talk</h3>
                     </div>
                     <div className="card-body">
-                        <form className="form" name="contact" data-netlify="true">
+                        <form className="form" name="contact" data-netlify="true" method="post" encType="application/x-www-form-urlencoded">
                             <p class="hidden">
                                 <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
                             </p>
                             <fieldset>
-                                <label htmlFor="name2" className="mb-0">Name*</label>
+                                <label htmlFor="user_name" className="mb-0">Name*</label>
                                 <div className="row mb-1">
                                     <div className="col-lg-12">
-                                        <input type="text" name="name2" id="name2" className="form-control" required />
+                                        <input type="text" name="user_name" id="user_name" className="form-control" required />
                                     </div>
                                 </div>
-                                <label htmlFor="email2" className="mb-0">Email*</label>
+                                <label htmlFor="user_email" className="mb-0">Email*</label>
                                 <div className="row mb-1">
                                     <div className="col-lg-12">
-                                        <input type="email" name="email2" id="email2" className="form-control" required />
+                                        <input type="email" name="user_email" id="user_email" className="form-control" required />
                                     </div>
                                 </div>
-                                <label htmlFor="message2" className="mb-0">Message*</label>
+                                <label htmlFor="user_message" className="mb-0">Message*</label>
                                 <div className="row mb-1">
                                     <div className="col-lg-12">
-                                        <textarea rows="6" name="message2" id="message2" className="form-control" required></textarea>
+                                        <textarea rows="6" name="user_message" id="user_message" className="form-control" required></textarea>
                                     </div>
                                 </div>
                                 <div className="form-row text-center">
