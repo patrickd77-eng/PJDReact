@@ -45,8 +45,8 @@ class About extends React.Component {
                             </div>
                         </div>
                     </div>
-                </section>
-                <section>
+
+
                     <div className="container">
                         <div className="row">
                             <div className="col col-xs-12">
@@ -153,11 +153,8 @@ class About extends React.Component {
                                 <div className="mt-5 mb-5">
                                     <h2>Other Skills</h2>
                                     <ul className="list-group list-group-horizontal-sm">
-                                        <li className="list-group-item"><strong>Computer Builds and Upgrades</strong>
+                                        <li className="list-group-item"><strong>Computer Builds, Upgrades and Repairs</strong>
                                             <p>  Adept at upgrading and building PCs for any requirement.</p>
-                                        </li>
-                                        <li className="list-group-item"><strong>Computer Repairs</strong>
-                                            <p> Can overcome stubborn spyware/malware and identify broken hardware.</p>
                                         </li>
                                         <li className="list-group-item"><strong>IoT Device Experience</strong>
                                             <p> Use/developent with raspberry pi's and smart speakers.</p>
