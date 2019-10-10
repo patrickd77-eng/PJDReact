@@ -51,6 +51,9 @@ div>a>i {
 .container{
     display:flow-root !important;
 }
+.containerCustom{
+    display:flex !important;
+}
 
 #banner:before {
     -moz-transition: opacity 1.5s ease;
