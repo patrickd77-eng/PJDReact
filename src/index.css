@@ -206,6 +206,7 @@ div>a>i {
 }
 
 #footer {
+    margin-top:275px;
     background-color: #111111;
     color: rgba(255, 255, 255, 0.877);
     padding: 2rem 0 2rem 0;
