@@ -6,7 +6,7 @@ class Contact extends React.Component {
     return (
       <div>
         <section className="wrapper">
-          <div className="inner">
+        <div className="container">
             <ContactForm/>
           </div>
           <div className="inner">

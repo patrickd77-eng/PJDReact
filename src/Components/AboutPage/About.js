@@ -5,7 +5,7 @@ class About extends React.Component {
         return (
             <div>
                 <section className="wrapper">
-                    <div className="container">
+                <div className="container">
                         <div className="row">
                             <div className="col-lg-6 mb-4">
                                 <h2>Relevant Experience</h2>

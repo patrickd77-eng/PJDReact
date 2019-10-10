@@ -48,6 +48,9 @@ div>a>i {
 .container>div>a>i {
     color: white;
 }
+.container{
+    display:flow-root !important;
+}
 
 #banner:before {
     -moz-transition: opacity 1.5s ease;
@@ -258,6 +261,7 @@ header.special {
 .highlights>.content>p {
     width: 50%;
 }
+
 
 .highlights .content .icon {
     font-size: 3rem;
