@@ -262,3 +262,7 @@ header.special {
 .highlights .content .icon {
     font-size: 3rem;
 }
+
+a > p {
+    color:black;
+}

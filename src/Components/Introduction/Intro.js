@@ -15,7 +15,7 @@ class Intro extends React.Component {
               <section>
                 <div className="content">
                   <h3 className="mb-5">Welcome to my site.</h3>
-                  <p className="mb-5">I'm a undergraduate developer aiming to work as a Web Developer once graduated. Take a look around!</p>
+                  <p className="mb-5">I'm a undergraduate developer aiming to get into Web Development past University. Take a look around!</p>
                   <div class="row">
                     <div class="col">
                       <NavLink to="/projects">
