@@ -262,7 +262,9 @@ header.special {
 .highlights .content .icon {
     font-size: 3rem;
 }
-
+.hidden{
+    display:none;
+}
 a > p {
     color:black;
 }
