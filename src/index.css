@@ -204,12 +204,14 @@ div>a>i {
     display: flex;
     justify-content: space-between;
 }
-
+body{
+    height:100%;
+}
 #footer {
-    margin-top:275px;
+    margin-top: 55px;
     background-color: #111111;
     color: rgba(255, 255, 255, 0.877);
-    padding: 2rem 0 2rem 0;
+    padding: 6rem 0 6rem 0;
 }
 
 #footer .copyright {
