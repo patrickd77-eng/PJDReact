@@ -45,15 +45,12 @@ class About extends React.Component {
                             </div>
                         </div>
                     </div>
-
-
                     <div className="container">
                         <div className="row">
                             <div className="col col-xs-12">
                                 <div className="accordion" id="accordion">
                                     <div className="card align-items-center">
                                         <div className="card-header " id="heading">
-
                                             <button className="btn btn-link btn-lg " type="button" data-toggle="collapse" data-target="#collapse" aria-expanded="true" aria-controls="collapse">
                                                 Skills / Tools Used
                                                <br />
@@ -75,10 +72,10 @@ class About extends React.Component {
                                                     </li>
                                                     <li className="list-group-item d-flex justify-content-between align-items-center">
                                                         <strong>.NET Core</strong>
-                                                        <span className="badge badge-primary badge-pill">Self-Taught</span>
+                                                        <span className="badge badge-primary badge-pill">Learning</span>
                                                     </li>
                                                     <li className="list-group-item d-flex justify-content-between align-items-center">
-                                                        <strong>Umbraco 7 & 8</strong>
+                                                        <strong>Umbraco</strong>
                                                         <span className="badge badge-primary badge-pill">Working Experience</span>
                                                         <span className="badge badge-primary badge-pill">Self-Taught</span>
                                                     </li>
@@ -101,17 +98,13 @@ class About extends React.Component {
                                                         <span className="badge badge-primary badge-pill">Working Experience</span>
                                                     </li>
                                                     <li className="list-group-item d-flex justify-content-between align-items-center">
-                                                        <strong>Java</strong>
-                                                        <span className="badge badge-primary badge-pill">University</span>
-                                                    </li>
-                                                    <li className="list-group-item d-flex justify-content-between align-items-center">
                                                         <strong>JavaScript</strong>
                                                         <span className="badge badge-primary badge-pill">Self-Taught</span>
                                                         <span className="badge badge-primary badge-pill">Working Experience</span>
                                                     </li>
                                                     <li className="list-group-item d-flex justify-content-between align-items-center">
                                                         <strong>React and Angular</strong>
-                                                        <span className="badge badge-primary badge-pill">Self-Taught</span>
+                                                        <span className="badge badge-primary badge-pill">Learning</span>
                                                     </li>
                                                     <li className="list-group-item d-flex justify-content-between align-items-center">
                                                         <strong>HTML & CSS</strong>
@@ -124,12 +117,12 @@ class About extends React.Component {
                                                         <span className="badge badge-primary badge-pill">Working Experience</span>
                                                     </li>
                                                     <li className="list-group-item d-flex justify-content-between align-items-center">
-                                                        <strong>Windows Server (IIS & SQL)</strong>
+                                                        <strong>Windows Server (IIS)</strong>
                                                         <span className="badge badge-primary badge-pill">Self-Taught</span>
                                                         <span className="badge badge-primary badge-pill">Working Experience</span>
                                                     </li>
                                                     <li className="list-group-item d-flex justify-content-between align-items-center">
-                                                        <strong>Git, NPM, Nuget, VS Code, Visual Studio, SMSS, Postman, Papercut</strong>
+                                                        <strong>Git, NPM, PIP, Nuget, VS Code, Visual Studio, SQL & SMSS, Postman, Papercut</strong>
                                                     </li>
                                                 </ul>
                                             </div>
