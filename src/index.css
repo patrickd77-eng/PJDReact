@@ -50,7 +50,7 @@ div>a>i {
 }
 
 .containerCustom {
-    display:flow-root !important;
+    display: flow-root !important;
 }
 
 #banner:before {
@@ -263,13 +263,14 @@ header.special {
     width: 50%;
 }
 
-
 .highlights .content .icon {
     font-size: 3rem;
 }
-.hidden{
-    display:none;
+
+.hidden {
+    display: none;
 }
-a > p {
-    color:black;
+
+a>p {
+    color: black;
 }

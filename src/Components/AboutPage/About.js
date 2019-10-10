@@ -5,10 +5,10 @@ class About extends React.Component {
         return (
             <div>
                 <section className="wrapper">
-                <div className="container">
+                    <div className="container">
                         <div className="row">
                             <div className="col-lg-6 mb-4">
-                                <h2>Relevant Experience</h2>
+                                <h2 className="center">Relevant Experience</h2>
                                 <div className="card">
                                     <div className="card-body">
                                         <h5 className="card-title">Greenwood Campbell</h5>
@@ -26,7 +26,7 @@ class About extends React.Component {
                                 </div>
                             </div>
                             <div className="col-lg-6 mt-2">
-                                <h2>Education</h2>
+                                <h2 className="center">Education</h2>
                                 <div className="card">
                                     <div className="card-body">
                                         <h5 className="card-title">Bournemouth University</h5>
@@ -137,7 +137,7 @@ class About extends React.Component {
                                     </div>
                                 </div>
                                 <div className="mt-5">
-                                    <h2>Udemy Courses</h2>
+                                    <h2 className="center">Udemy Courses</h2>
                                     <ul className="list-group list-group-horizontal-sm">
                                         <li className="list-group-item">The Complete Web Developer in 2019: Zero to Mastery
                                             By Andrei Neagoie
@@ -151,7 +151,7 @@ class About extends React.Component {
                                     </ul>
                                 </div>
                                 <div className="mt-5 mb-5">
-                                    <h2>Other Skills</h2>
+                                    <h2 className="center">Other Skills</h2>
                                     <ul className="list-group list-group-horizontal-sm">
                                         <li className="list-group-item"><strong>Computer Builds, Upgrades and Repairs</strong>
                                             <p>  Adept at upgrading and building PCs for any requirement.</p>
