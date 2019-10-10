@@ -9,7 +9,7 @@ class Contact extends React.Component {
         <div className="container">
             <ContactForm/>
           </div>
-          <div className="container">
+          <div className="container containerCustom">
             <div id="services" className="card card-outline-secondary">
               <div className="card-header">
                 <h3 className="mb-0">Cost Effective Websites / Apps</h3>
