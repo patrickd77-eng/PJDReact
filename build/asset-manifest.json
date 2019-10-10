@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0aedcc8a.chunk.css",
+    "main.js": "/static/js/main.f440de24.chunk.js",
+    "main.js.map": "/static/js/main.f440de24.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.a94134b0.js",
+    "runtime-main.js.map": "/static/js/runtime-main.a94134b0.js.map",
+    "static/js/2.4a555f25.chunk.js": "/static/js/2.4a555f25.chunk.js",
+    "static/js/2.4a555f25.chunk.js.map": "/static/js/2.4a555f25.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.a92752f659077c73838959704927c187.js": "/precache-manifest.a92752f659077c73838959704927c187.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.0aedcc8a.chunk.css.map": "/static/css/main.0aedcc8a.chunk.css.map",
+    "static/media/Apostrophe.jpg": "/static/media/Apostrophe.b727621d.jpg",
+    "static/media/ChloeTextiles.jpg": "/static/media/ChloeTextiles.5975c546.jpg",
+    "static/media/Code.jpg": "/static/media/Code.5866dcf7.jpg",
+    "static/media/CodeMac.jpg": "/static/media/CodeMac.ffc3aaf6.jpg",
+    "static/media/Empaths.jpg": "/static/media/Empaths.809ea306.jpg",
+    "static/media/JulieArt.jpg": "/static/media/JulieArt.0f466170.jpg",
+    "static/media/Me.jpg": "/static/media/Me.3b204fa8.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a94134b0.js",
+    "static/js/2.4a555f25.chunk.js",
+    "static/css/main.0aedcc8a.chunk.css",
+    "static/js/main.f440de24.chunk.js"
+  ]
+}
