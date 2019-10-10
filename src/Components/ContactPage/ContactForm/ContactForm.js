@@ -10,7 +10,7 @@ class ContactForm extends React.Component {
                         <h3 className="mb-0">Let's talk</h3>
                     </div>
                     <div className="card-body">
-                        {/* <form className="form" action="#" name="contact_form" netlify method="POST" encType="application/x-www-form-urlencoded">
+                        <form className="form" action="#" name="contact_form" netlify method="POST" encType="application/x-www-form-urlencoded">
                             <p class="hidden">
                                 <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
                             </p>
@@ -39,26 +39,6 @@ class ContactForm extends React.Component {
                                     </div>
                                 </div>
                             </fieldset>
-                        </form> */}
-                        <form name="contact" method="POST" data-netlify="true">
-                            <p>
-                                <label>Your Name: <input type="text" name="name" /></label>
-                            </p>
-                            <p>
-                                <label>Your Email: <input type="email" name="email" /></label>
-                            </p>
-                            <p>
-                                <label>Your Role: <select name="role[]" multiple>
-                                    <option value="leader">Leader</option>
-                                    <option value="follower">Follower</option>
-                                </select></label>
-                            </p>
-                            <p>
-                                <label>Message: <textarea name="message"></textarea></label>
-                            </p>
-                            <p>
-                                <button type="submit">Send</button>
-                            </p>
                         </form>
                     </div>
                 </div>
