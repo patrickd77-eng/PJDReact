@@ -9,7 +9,7 @@ class Stuff extends React.Component {
     return (
       <div>
         <section className="wrapper">
-        <div className="container">
+        <div className="container containerCustom">
             <h1>Projects</h1>
             <p>Here's some of my projects. Check out my <a title="My GitHub" href="https://github.com/patrickd77-eng/" rel="noopener noreferrer" target="_blank">GitHub</a> for more info.</p>
             <div className="card mb-3" >

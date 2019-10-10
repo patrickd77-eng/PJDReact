@@ -48,11 +48,9 @@ div>a>i {
 .container>div>a>i {
     color: white;
 }
-.container{
-    display:flow-root !important;
-}
+
 .containerCustom{
-    display:flex !important;
+    display:flow-root !important;
 }
 
 #banner:before {
