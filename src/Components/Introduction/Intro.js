@@ -9,7 +9,7 @@ class Intro extends React.Component {
           <div className="home-inner">
             <div className="container">
               <h2 className="mt-4">Hi. I'm Patrick.</h2>
-              <img draggable="false" width="105" className="rounded-circle float-right" height="auto" alt="Patrick Davis" src={Me}></img>
+              <img draggable="false" width="220" className="rounded-circle float-right" height="200" alt="Patrick Davis" src={Me}></img>
             </div>
             <div className="highlights">
               <section>
