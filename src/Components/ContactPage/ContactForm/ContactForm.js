@@ -3,6 +3,8 @@ import React from "react";
 class ContactForm extends React.Component {
     render() {
         return (
+        <div>
+         <h1>Contact</h1>
             <div className="card card-outline-secondary">
                 <div className="card-header">
                     <h3 className="mb-0">Let's talk</h3>
@@ -37,6 +39,7 @@ class ContactForm extends React.Component {
                     </form>
                 </div>
             </div>
+        </div>
         );
     }
 }
