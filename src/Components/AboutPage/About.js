@@ -21,7 +21,7 @@ class About extends React.Component {
                                     <div className="card-body">
                                         <h5 className="card-title">LV=</h5>
                                         <h6 className="card-subtitle mb-2 text-muted">Temporary Digital Content Assistant | 3 mo</h6>
-                                        <p className="card-text">Mainly content work using C5 and Sitecore</p>
+                                        <p className="card-text">Mainly content work using C5 and Sitecore.</p>
                                     </div>
                                 </div>
                             </div>
@@ -80,7 +80,7 @@ class About extends React.Component {
                                                         <span className="badge badge-primary badge-pill">Self-Taught</span>
                                                     </li>
                                                     <li className="list-group-item d-flex justify-content-between align-items-center">
-                                                        <strong>  Python</strong>
+                                                        <strong>Python</strong>
                                                         <span className="badge badge-primary badge-pill">Self-Taught</span>
                                                     </li>
                                                     <li className="list-group-item d-flex justify-content-between align-items-center">
@@ -122,7 +122,7 @@ class About extends React.Component {
                                                         <span className="badge badge-primary badge-pill">Working Experience</span>
                                                     </li>
                                                     <li className="list-group-item d-flex justify-content-between align-items-center">
-                                                        <strong>Git, NPM, PIP, Nuget, VS Code, Visual Studio, SQL & SMSS, Postman, Papercut</strong>
+                                                        <strong>Git, NPM, PIP, Nuget, VS Code, MongoDB, NodeJS, Express, Visual Studio, SQL & SMSS, Postman, Papercut</strong>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -147,13 +147,13 @@ class About extends React.Component {
                                     <h2 className="center">Other Skills</h2>
                                     <ul className="list-group list-group-horizontal-sm">
                                         <li className="list-group-item"><strong>Computer Builds, Upgrades and Repairs</strong>
-                                            <p>  Adept at upgrading and building PCs for any requirement.</p>
+                                            <p>Adept at upgrading and building PCs for any requirement.</p>
                                         </li>
                                         <li className="list-group-item"><strong>IoT Device Experience</strong>
-                                            <p> Use/developent with raspberry pi's and smart speakers.</p>
+                                            <p>Use/developent with Raspberry Pi's and smart speakers.</p>
                                         </li>
                                         <li className="list-group-item"><strong>Transcription & Copywriting</strong>
-                                            <p>   Adept at content migration etc.</p>
+                                            <p>Adept at content migration etc.</p>
                                         </li>
                                     </ul>
                                 </div>
