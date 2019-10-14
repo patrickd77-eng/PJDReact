@@ -189,6 +189,7 @@ div>a>i {
 
 .bg-dark {
     background-color: rgba(17, 17, 17, 1) !important;
+    font-size: x-large;
 }
 
 .card {
