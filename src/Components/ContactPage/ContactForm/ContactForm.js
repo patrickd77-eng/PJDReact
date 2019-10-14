@@ -8,7 +8,7 @@ class ContactForm extends React.Component {
                     <h1 center>Contact Me</h1>
                     <div className="card-header center">
                         <Obfuscate
-                            className="acustom btn btn-primary btn-lg"
+                            className="acustom btn btn-primary"
                             email="patrick_davis97@hotmail.co.uk"
                             headers={{
                                 subject: 'Question from your website'
