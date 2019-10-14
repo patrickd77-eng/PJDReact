@@ -35,7 +35,7 @@ class Intro extends React.Component {
                       </NavLink>
                     </div>
                     <div class="col">
-                      <a target="_blank" rel="noopener noreferrer" href={CV}>
+                      <a title="Patrick Davis CV"  target="_blank" rel="noopener noreferrer" href={CV}>
                         <i className="icon fas fa-file-download " />
                         <p>My 2019 CV</p>
                       </a></div>
