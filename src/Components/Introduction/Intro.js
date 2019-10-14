@@ -1,5 +1,6 @@
 import React from "react";
 import Me from "../Media/Me.jpg"
+import CV from "./PJDCV2019.pdf"
 import { NavLink } from "react-router-dom";
 class Intro extends React.Component {
   render() {
@@ -31,7 +32,13 @@ class Intro extends React.Component {
                       <NavLink to="/about">
                         <i className="icon fas fa-address-card " />
                         <p>About</p>
-                      </NavLink></div>
+                      </NavLink>
+                    </div>
+                    <div class="col">
+                      <a target="_blank" rel="noopener noreferrer" href={CV}>
+                        <i className="icon fas fa-file-download " />
+                        <p>My 2019 CV</p>
+                      </a></div>
                   </div>
                 </div>
               </section>

@@ -159,8 +159,17 @@ div>a>i {
     width: auto;
 }
 
+.acustom {
+    color: rgba(255, 255, 255, 0.705);
+}
+
+.acustom:hover {
+    color: white;
+}
+
 .center {
     text-align: center;
+    word-wrap: break-word;
 }
 
 #banner p {
@@ -204,9 +213,11 @@ div>a>i {
     display: flex;
     justify-content: space-between;
 }
-body{
-    height:100%;
+
+body {
+    height: 100%;
 }
+
 #footer {
     margin-top: 125x;
     background-color: #111111;

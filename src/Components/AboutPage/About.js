@@ -107,12 +107,7 @@ class About extends React.Component {
                                                         <span className="badge badge-primary badge-pill">Learning</span>
                                                     </li>
                                                     <li className="list-group-item d-flex justify-content-between align-items-center">
-                                                        <strong>HTML & CSS</strong>
-                                                        <span className="badge badge-primary badge-pill">Self-Taught</span>
-                                                        <span className="badge badge-primary badge-pill">Working Experience</span>
-                                                    </li>
-                                                    <li className="list-group-item d-flex justify-content-between align-items-center">
-                                                        <strong>Bootstrap 4</strong>
+                                                        <strong>HTML & CSS & Bootstrap</strong>
                                                         <span className="badge badge-primary badge-pill">Self-Taught</span>
                                                         <span className="badge badge-primary badge-pill">Working Experience</span>
                                                     </li>
@@ -121,8 +116,9 @@ class About extends React.Component {
                                                         <span className="badge badge-primary badge-pill">Self-Taught</span>
                                                         <span className="badge badge-primary badge-pill">Working Experience</span>
                                                     </li>
+                                                    <h3 className="mt-3">Tools and Key Technologies</h3>
                                                     <li className="list-group-item d-flex justify-content-between align-items-center">
-                                                        <strong>Git, NPM, PIP, Nuget, VS Code, MongoDB, NodeJS, Express, Visual Studio, SQL & SMSS, Postman, Papercut</strong>
+                                                        <strong>Git, NPM, PIP, Nuget, RESTful APIs, VS Code, MongoDB, NodeJS, Express, Visual Studio, SQL & SMSS, Postman, Papercut</strong>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -142,6 +138,7 @@ class About extends React.Component {
                                              By Brett Hargreaves
                                       </li>
                                     </ul>
+                                    <p className="center mt-2">I have also followed countless Full Stack JS tutorials, particularly focused on the MERN stack.</p>
                                 </div>
                                 <div className="mt-5 mb-5">
                                     <h2 className="center">Other Skills</h2>

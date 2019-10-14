@@ -1,8 +1,9 @@
 import React from "react";
 import Empaths from "../Media/Empaths.jpg";
 import Apostrophe from "../Media/Apostrophe.jpg";
-import ChloeTextiles from "../Media/ChloeTextiles.jpg";
-import JulieArt from "../Media/JulieArt.jpg";
+import Blog from "../Media/Blog.jpg";
+// import ChloeTextiles from "../Media/ChloeTextiles.jpg";
+// import JulieArt from "../Media/JulieArt.jpg";
 import CodeMac from "../Media/CodeMac.jpg";
 class Stuff extends React.Component {
   render() {
@@ -48,31 +49,15 @@ class Stuff extends React.Component {
             <div className="card mb-3" >
               <div className="row no-gutters">
                 <div className="col-md-4">
-                  <img draggable="false" src={ChloeTextiles} className="card-img" alt="Textiles Print" />
+                  <a title="Link to Repo" target="_blank" rel="noopener noreferrer" href="https://github.com/patrickd77-eng/DjangoBlogStarter"> <img draggable="false" src={Blog} className="card-img" alt="Apostrophe CMS Logo" /></a>
                 </div>
                 <div className="col-md-8">
                   <div className="card-body">
-                    <h5 className="card-title">Elizabeth May Art</h5>
+                    <h5 className="card-title">Python/Django Blog Template</h5>
                     <p className="card-text">
-                      This site will serve as a point of contact and breakdown about a Textiles graduate, with shopping cart tech upcoming.</p>
-                    <p>The site will be a beautiful and fast art gallery featuring her prints and designs available for browsing or purchase.</p>
-                    <p className="card-text"><small className="text-muted">Starting Soon</small></p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="card mb-3" >
-              <div className="row no-gutters">
-                <div className="col-md-4">
-                  <img draggable="false" src={JulieArt} className="card-img" alt="Julie's Painting" />
-                </div>
-                <div className="col-md-8">
-                  <div className="card-body">
-                    <h5 className="card-title">Julie Davis Art</h5>
-                    <p className="card-text">
-                      This site will serve as a point of contact and shop for my Mother's art business.</p>
-                    <p className="card-text">This is in progress but eventually it will be a full featured gallery and have shopping cart technology.</p>
-                    <p className="card-text"><small className="text-muted">Starting Soon</small></p>
+                      This is a Bootstrap 4 blog template that I released using Django CMS. Check it out! I figured it'd help someone starting out with django, which is useful for quick projects using authentication.</p>
+                    <p>Because this is a template repo with instructions, it's completely free to be used or developed on. With some extra styling, a fully functional CRUD capable blog could be made in just a day or two.</p>
+                    <p className="card-text"><small className="text-muted">September 2019 | <a title="Link to Repo" target="_blank" rel="noopener noreferrer" href="https://github.com/patrickd77-eng/DjangoBlogStarter">Link To Repo</a> </small></p>
                   </div>
                 </div>
               </div>
