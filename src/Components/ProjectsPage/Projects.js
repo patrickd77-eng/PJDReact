@@ -21,9 +21,9 @@ class Stuff extends React.Component {
                 <div className="col-md-8">
                   <div className="card-body">
                     <h5 className="card-title">Empaths Official Website</h5>
-                    <p className="card-text"> This site functions as a point of contact and breakdown about the music duo Empaths.</p>
-                    <p className="card-text">  I included Fontawesome & hvr.css for further styling.</p>
-                    <p className="card-text">  The site is built with .NET and the CMS is Umbraco V8.</p>
+                    <p className="card-text">This site functions as a point of contact and breakdown about the music duo Empaths.</p>
+                    <p className="card-text">I included Fontawesome & some of hvr.css for further styling.</p>
+                    <p className="card-text">The site is served statically for the ultimate speed and caching policy.</p>
                     <p className="card-text">The motivation for this site help out an upcoming music duo increase brand awareness and have a responsive and smooth digital platform to communicate through.</p>
                     <p className="card-text"><small className="text-muted">Released October 2019 | <a title="Link to site" target="_blank" rel="noopener noreferrer" href="https://www.empathsofficial.com">Link To Site</a> </small></p>
                   </div>
