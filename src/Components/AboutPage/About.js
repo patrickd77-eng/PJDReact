@@ -1,10 +1,16 @@
 import React from "react";
+import CV from "../Introduction/PJDCV2019.pdf"
 
 class About extends React.Component {
     render() {
         return (
             <div>
                 <section className="wrapper">
+                    <div className="mx-auto center">
+                        <a title="Patrick Davis CV" target="_blank" rel="noopener noreferrer" href={CV} >
+                            <i className="icon fas fa-file-download" />
+                            <p>My 2019 CV</p>
+                        </a></div>
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-6 mb-4">
@@ -30,7 +36,7 @@ class About extends React.Component {
                                 <div className="card">
                                     <div className="card-body">
                                         <h5 className="card-title">Bournemouth University</h5>
-                                        <h6 className="card-subtitle mb-2 text-muted">BSc, Business Information Technology</h6>
+                                        <h6 className="card-subtitle mb-2 text-muted">BSc, Comp Science (Business Information Technology)</h6>
                                         <p className="card-text">Undergraduate. Course contains elements of programming, systems & infrastructure, data and business.
                                      Predicted 2/1.</p>
                                     </div>
@@ -47,12 +53,12 @@ class About extends React.Component {
                     </div>
                     <div className="container">
                         <div className="row">
-                            <div className="col col-xs-12">
+                            <div className="col col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                 <div className="accordion" id="accordion">
                                     <div className="card align-items-center">
                                         <div className="card-header " id="heading">
                                             <button className="btn btn-link btn-lg " type="button" data-toggle="collapse" data-target="#collapse" aria-expanded="true" aria-controls="collapse">
-                                                Skills / Tools Used
+                                                Relevant Skills and Tools
                                                <br />
                                                 <span className="fas fa-chevron-circle-down" aria-hidden="true"> </span>
                                             </button>
@@ -60,42 +66,11 @@ class About extends React.Component {
                                         <div id="collapse" className="collapse" aria-labelledby="headingOne" data-parent="#accordion">
                                             <div className="card-body">
                                                 <ul className="list-group">
+                                                    <p class="mx-auto">Languages/Basics</p>
                                                     <li className="list-group-item d-flex justify-content-between align-items-center">
                                                         <strong>C#</strong>
                                                         <span className="badge badge-primary badge-pill">Working Experience</span>
                                                         <span className="badge badge-primary badge-pill">Self-Taught</span>
-                                                    </li>
-                                                    <li className="list-group-item d-flex justify-content-between align-items-center">
-                                                        <strong>.NET</strong>
-                                                        <span className="badge badge-primary badge-pill">Working Experience</span>
-                                                        <span className="badge badge-primary badge-pill">Self-Taught</span>
-                                                    </li>
-                                                    <li className="list-group-item d-flex justify-content-between align-items-center">
-                                                        <strong>.NET Core</strong>
-                                                        <span className="badge badge-primary badge-pill">Learning</span>
-                                                    </li>
-                                                    <li className="list-group-item d-flex justify-content-between align-items-center">
-                                                        <strong>Umbraco</strong>
-                                                        <span className="badge badge-primary badge-pill">Working Experience</span>
-                                                        <span className="badge badge-primary badge-pill">Self-Taught</span>
-                                                    </li>
-                                                    <li className="list-group-item d-flex justify-content-between align-items-center">
-                                                        <strong>Python</strong>
-                                                        <span className="badge badge-primary badge-pill">Self-Taught</span>
-                                                    </li>
-                                                    <li className="list-group-item d-flex justify-content-between align-items-center">
-                                                        <strong>Django and Flask</strong>
-                                                        <span className="badge badge-primary badge-pill">Self-Taught</span>
-                                                        <span className="badge badge-primary badge-pill">University</span>
-                                                    </li>
-                                                    <li className="list-group-item d-flex justify-content-between align-items-center">
-                                                        <strong>Google App Engine</strong>
-                                                        <span className="badge badge-primary badge-pill">University</span>
-                                                    </li>
-                                                    <li className="list-group-item d-flex justify-content-between align-items-center">
-                                                        <strong>Firebase</strong>
-                                                        <span className="badge badge-primary badge-pill">University</span>
-                                                        <span className="badge badge-primary badge-pill">Working Experience</span>
                                                     </li>
                                                     <li className="list-group-item d-flex justify-content-between align-items-center">
                                                         <strong>JavaScript</strong>
@@ -103,22 +78,39 @@ class About extends React.Component {
                                                         <span className="badge badge-primary badge-pill">Working Experience</span>
                                                     </li>
                                                     <li className="list-group-item d-flex justify-content-between align-items-center">
-                                                        <strong>React and Angular</strong>
+                                                        <strong>HTML & CSS (Bootsrap)</strong>
+                                                        <span className="badge badge-primary badge-pill">Self-Taught</span>
+                                                        <span className="badge badge-primary badge-pill">Working Experience</span>
+                                                    </li>
+                                                    <p class="mx-auto mt-3">Frameworks/Libraries</p>
+                                                    <li className="list-group-item d-flex justify-content-between align-items-center">
+                                                        <strong>.NET & .NET Core</strong>
+                                                        <span className="badge badge-primary badge-pill">Working Experience</span>
+                                                        <span className="badge badge-primary badge-pill">Self-Taught</span>
+                                                        <span className="badge badge-primary badge-pill">Learning Core</span>
+                                                    </li>
+                                                    <li className="list-group-item d-flex justify-content-between align-items-center">
+                                                        <strong>Umbraco</strong>
+                                                        <span className="badge badge-primary badge-pill">Working Experience</span>
+                                                        <span className="badge badge-primary badge-pill">Self-Taught</span>
+                                                    </li>
+                                                    <li className="list-group-item d-flex justify-content-between align-items-center">
+                                                        <strong>Google App Engine & Firebase</strong>
+                                                        <span className="badge badge-primary badge-pill">Self-Taught</span>
+                                                        <span className="badge badge-primary badge-pill">University</span>
+                                                        <span className="badge badge-primary badge-pill">Working Experience</span>
+                                                    </li>
+                                                    <li className="list-group-item d-flex justify-content-between align-items-center">
+                                                        <strong>MERN Stack (Mongo, Express, React, Node)</strong>
                                                         <span className="badge badge-primary badge-pill">Learning</span>
                                                     </li>
+                                                    <p class="mx-auto mt-3">Key Tools, Environments or Software</p>
                                                     <li className="list-group-item d-flex justify-content-between align-items-center">
-                                                        <strong>HTML & CSS & Bootstrap</strong>
-                                                        <span className="badge badge-primary badge-pill">Self-Taught</span>
-                                                        <span className="badge badge-primary badge-pill">Working Experience</span>
+                                                        <strong>Git, NPM, Nuget, RESTful APIs, VS Code, MongoDB (cloud and local), Visual Studio, SQL & SMSS, Postman, Papercut, Familliar with Linux servers, Window Server, IIS</strong>
                                                     </li>
+                                                    <p class="mx-auto mt-3">Other Misc Skills</p>
                                                     <li className="list-group-item d-flex justify-content-between align-items-center">
-                                                        <strong>Windows Server (IIS)</strong>
-                                                        <span className="badge badge-primary badge-pill">Self-Taught</span>
-                                                        <span className="badge badge-primary badge-pill">Working Experience</span>
-                                                    </li>
-                                                    <h3 className="mt-3">Tools and Key Technologies</h3>
-                                                    <li className="list-group-item d-flex justify-content-between align-items-center">
-                                                        <strong>Git, NPM, PIP, Nuget, RESTful APIs, VS Code, MongoDB, NodeJS, Express, Visual Studio, SQL & SMSS, Postman, Papercut</strong>
+                                                        <strong>Familliar with Python, Flask and Django, as well as some data science libraries like SciKit learn.</strong>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -127,7 +119,7 @@ class About extends React.Component {
                                 </div>
                                 <div className="mt-5">
                                     <h2 className="center">Udemy Courses</h2>
-                                    <ul className="list-group list-group-horizontal-sm">
+                                    <ul className="list-group list-group-vertical-sm">
                                         <li className="list-group-item">The Complete Web Developer in 2019: Zero to Mastery
                                             By Andrei Neagoie
                                         </li>
@@ -137,8 +129,10 @@ class About extends React.Component {
                                         <li className="list-group-item">Complete ASP NET MVC Web Development - Newbie to Ninja!
                                              By Brett Hargreaves
                                       </li>
+                                        <li className="list-group-item">MERN Stack Front to Back
+                                               By Traversy Media
+                                      </li>
                                     </ul>
-                                    <p className="center mt-2">I have also followed countless Full Stack JS tutorials, particularly focused on the MERN stack.</p>
                                 </div>
                                 <div className="mt-5 mb-5">
                                     <h2 className="center">Other Skills</h2>

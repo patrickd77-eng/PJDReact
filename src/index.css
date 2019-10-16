@@ -50,7 +50,7 @@ div>a>i {
 }
 
 .containerCustom {
-    display: flow-root !important;
+    display: block !important;
 }
 
 #banner:before {
@@ -203,7 +203,7 @@ div>a>i {
 
 .accordion>.card {
     background-color: rgba(0, 0, 0, .03);
-    border-bottom: 1px !important;
+    border: 0px !important;
 }
 
 .card-body {
