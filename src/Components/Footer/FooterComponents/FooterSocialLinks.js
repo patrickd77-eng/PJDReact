@@ -4,7 +4,7 @@ import React from "react";
 class FooterSocialLinks extends React.Component {
     render() {
         return (
-            <div className="container mr-5 ml-5">
+            <div className="container">
                 <div>
                     <a title="My GitHub" href="https://github.com/patrickd77-eng/" target="_blank" rel="noopener noreferrer">
                         <i className="fab fa-github" aria-hidden="true" />
