@@ -9,7 +9,7 @@ class Intro extends React.Component {
           <div className="home-inner">
             <div className="container mx-auto d-block">
               <div>
-                <h2 className="mt-4 center">Hi. I'm Patrick.</h2>
+                <h1 className="mt-4 center">Hi. I'm Patrick.</h1>
               </div>
             </div>
             <div className="highlights">
