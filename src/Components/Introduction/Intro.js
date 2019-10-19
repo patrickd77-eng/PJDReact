@@ -18,26 +18,26 @@ class Intro extends React.Component {
                   <h3 className="mb-5">Welcome to my site</h3>
                   <p className="mb-5">I'm a undergraduate web developer and once I graduate I'd like to work professionally with either .NET or JavaScript based stacks. Take a look around!</p>
                   <div class="row">
-                    <div class="col">
+                    <div class="col mt-3">
                       <NavLink to="/projects">
                         <i className="icon fas fa-project-diagram" />
                         <hr></hr>
                         <strong>Projects</strong>
                       </NavLink></div>
-                    <div class="col">
+                    <div class="col mt-3">
                       <NavLink to="/contact">
                         <i className="icon fas fa-envelope" />
                         <hr></hr>
                         <strong>Contact Me</strong>
                       </NavLink></div>
-                    <div class="col">
+                    <div class="col mt-3">
                       <NavLink to="/about">
                         <i className="icon fas fa-address-card " />
                         <hr></hr>
                         <strong>About Me</strong>
                       </NavLink>
                     </div>
-                    <div class="col">
+                    <div class="col mt-3">
                       <a title="Patrick Davis CV" target="_blank" rel="noopener noreferrer" href={CV}>
                         <i className="icon fas fa-file-download " />
                         <hr></hr>
