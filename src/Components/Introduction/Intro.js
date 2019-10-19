@@ -1,5 +1,4 @@
 import React from "react";
-import Me from "../Media/Me.jpg"
 import CV from "./PJDCV2019.pdf"
 import { NavLink } from "react-router-dom";
 class Intro extends React.Component {
@@ -11,38 +10,38 @@ class Intro extends React.Component {
             <div className="container mx-auto d-block">
               <div>
                 <h2 className="mt-4 center">Hi. I'm Patrick.</h2>
-                <div>
-                  <img className="rounded mx-auto d-block" draggable="false" width="60%" height="100%" alt="Patrick Davis" src={Me}></img>
-                </div>
               </div>
             </div>
-            <hr></hr>
             <div className="highlights">
               <section>
                 <div className="content">
                   <h3 className="mb-5">Welcome to my site</h3>
-                  <p className="mb-5">I'm a undergraduate developer aiming to get into Web Development past University. Take a look around!</p>
+                  <p className="mb-5">I'm a undergraduate web developer and once I graduate I'd like to work professionally with either .NET or JavaScript based stacks. Take a look around!</p>
                   <div class="row">
                     <div class="col">
                       <NavLink to="/projects">
                         <i className="icon fas fa-project-diagram" />
-                        <p>Projects</p>
+                        <hr></hr>
+                        <strong>Projects</strong>
                       </NavLink></div>
                     <div class="col">
                       <NavLink to="/contact">
                         <i className="icon fas fa-envelope" />
-                        <p>Contact</p>
+                        <hr></hr>
+                        <strong>Contact Me</strong>
                       </NavLink></div>
                     <div class="col">
                       <NavLink to="/about">
                         <i className="icon fas fa-address-card " />
-                        <p>About</p>
+                        <hr></hr>
+                        <strong>About Me</strong>
                       </NavLink>
                     </div>
                     <div class="col">
                       <a title="Patrick Davis CV" target="_blank" rel="noopener noreferrer" href={CV}>
                         <i className="icon fas fa-file-download " />
-                        <p>My 2019 CV</p>
+                        <hr></hr>
+                        <strong>My 2019 CV</strong>
                       </a></div>
                   </div>
                 </div>
@@ -50,7 +49,7 @@ class Intro extends React.Component {
             </div>
           </div>
         </section>
-      </div >
+      </div>
     );
   }
 }

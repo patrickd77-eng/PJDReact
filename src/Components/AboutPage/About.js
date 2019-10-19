@@ -1,44 +1,42 @@
 import React from "react";
-import CV from "../Introduction/PJDCV2019.pdf"
+import CV from "../Introduction/PJDCV2019.pdf";
+import CodeMac from "../Media/CodeMac.jpg";
 
 class About extends React.Component {
     render() {
         return (
             <div>
                 <section className="wrapper">
-                    <div className="mx-auto center">
-                        <a title="Patrick Davis CV" target="_blank" rel="noopener noreferrer" href={CV} >
-                            <i className="icon fas fa-file-download" />
-                            <p>My 2019 CV</p>
-                        </a></div>
+
                     <div className="container">
-                        <div className="row">
-                            <div className="col-lg-6 mb-4">
-                                <h2 className="center">Relevant Experience</h2>
-                                <div className="card">
-                                    <div className="card-body">
-                                        <h5 className="card-title">Greenwood Campbell</h5>
-                                        <h6 className="card-subtitle mb-2 text-muted">Web Developer (Placement) | 1 Yr 3 Mo</h6>
-                                        <p className="card-text">Mainly .NET, with some front end work.</p>
-                                        <p className="card-text">Other experience: IoT/Smart Devices, Chatbots (TypeScript and Firebase), Voice Assistants.</p>
-                                    </div>
-                                </div>
-                                <div className="card">
-                                    <div className="card-body">
-                                        <h5 className="card-title">LV=</h5>
-                                        <h6 className="card-subtitle mb-2 text-muted">Temporary Digital Content Assistant | 3 mo</h6>
-                                        <p className="card-text">Mainly content work using C5 and Sitecore.</p>
+                        <div className="row text-center">
+                            <div className="col-lg-4 mb-4 ">
+                                <h2 className="center">Relevant Working Experience</h2>
+                                <div className="card ">
+                                    <div className="card-body ">
+                                        <h5 className="card-title">Over a year in the Web Dev industry</h5>
+                                        <h6 className="card-subtitle mb-2 text-muted">Please read my CV for more work history.</h6>
+                                        <p className="card-text"> I have experience working with front end and back end technologies, scrum agile development, client proposals, software maintenance, planning and more.</p>
+                                        <div className="mx-auto center">
+                                            <a title="Patrick Davis CV" target="_blank" rel="noopener noreferrer" href={CV} >
+                                                <i className="icon icon-large fas fa-file-download" />
+                                                <strong> Download My CV</strong>
+                                            </a></div>
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-lg-6 mt-2">
-                                <h2 className="center">Education</h2>
+                            <div className="col-lg-8 mt-2">
+                                <h2 className="center">Education History</h2>
                                 <div className="card">
                                     <div className="card-body">
                                         <h5 className="card-title">Bournemouth University</h5>
                                         <h6 className="card-subtitle mb-2 text-muted">BSc, Comp Science (Business Information Technology)</h6>
                                         <p className="card-text">Undergraduate. Course contains elements of programming, systems & infrastructure, data and business.
                                      Predicted 2/1.</p>
+                                        <a title="My Degree" href="https://www.bournemouth.ac.uk/study/courses/bsc-hons-business-information-technology" rel="noopener noreferrer" target="_blank">
+                                            <i class="icon icon-large fas fa-user-graduate" aria-hidden="true" />
+                                            <strong> Course Information</strong>
+                                        </a>
                                     </div>
                                 </div>
                                 <div className="card">
@@ -53,14 +51,14 @@ class About extends React.Component {
                     </div>
                     <div className="container">
                         <div className="row">
-                            <div className="col col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <div className="col">
                                 <div className="accordion" id="accordion">
                                     <div className="card align-items-center">
                                         <div className="card-header " id="heading">
                                             <button className="btn btn-link btn-lg " type="button" data-toggle="collapse" data-target="#collapse" aria-expanded="true" aria-controls="collapse">
                                                 Relevant Skills and Tools
                                                <br />
-                                                <span className="fas fa-chevron-circle-down" aria-hidden="true"> </span>
+                                                <span className="icon icon-large fas fa-chevron-circle-down" aria-hidden="true"> </span>
                                             </button>
                                         </div>
                                         <div id="collapse" className="collapse" aria-labelledby="headingOne" data-parent="#accordion">
@@ -69,48 +67,47 @@ class About extends React.Component {
                                                     <p class="mx-auto">Languages/Basics</p>
                                                     <li className="list-group-item d-flex justify-content-between align-items-center">
                                                         <strong>C#</strong>
-                                                        <span className="badge badge-primary badge-pill">Working Experience</span>
-                                                        <span className="badge badge-primary badge-pill">Self-Taught</span>
+                                                        <span className="badge badge-primary badge-pill">Worked With, Self-Taught</span>
                                                     </li>
                                                     <li className="list-group-item d-flex justify-content-between align-items-center">
                                                         <strong>JavaScript</strong>
-                                                        <span className="badge badge-primary badge-pill">Self-Taught</span>
-                                                        <span className="badge badge-primary badge-pill">Working Experience</span>
+                                                        <span className="badge badge-primary badge-pill">Worked With, Self-Taught</span>
                                                     </li>
                                                     <li className="list-group-item d-flex justify-content-between align-items-center">
                                                         <strong>HTML & CSS (Bootsrap)</strong>
-                                                        <span className="badge badge-primary badge-pill">Self-Taught</span>
-                                                        <span className="badge badge-primary badge-pill">Working Experience</span>
-                                                    </li>
-                                                    <p class="mx-auto mt-3">Frameworks/Libraries</p>
-                                                    <li className="list-group-item d-flex justify-content-between align-items-center">
-                                                        <strong>.NET & .NET Core</strong>
-                                                        <span className="badge badge-primary badge-pill">Working Experience</span>
-                                                        <span className="badge badge-primary badge-pill">Self-Taught</span>
-                                                        <span className="badge badge-primary badge-pill">Learning Core</span>
+                                                        <span className="badge badge-primary badge-pill">Worked With, Self-Taught</span>
                                                     </li>
                                                     <li className="list-group-item d-flex justify-content-between align-items-center">
-                                                        <strong>Umbraco</strong>
-                                                        <span className="badge badge-primary badge-pill">Working Experience</span>
-                                                        <span className="badge badge-primary badge-pill">Self-Taught</span>
+                                                        <strong>HTTP Codes, Server Codes, Knowledge of common faults & windows/linux deployment</strong>
+                                                        <span className="badge badge-primary badge-pill">Worked With, Self-Taught</span>
+                                                    </li>
+                                                    <p class="mx-auto mt-3">Frameworks/Libraries/CMS</p>
+                                                    <li className="list-group-item d-flex justify-content-between align-items-center">
+                                                        <strong>.NET & Core</strong>
+                                                        <span className="badge badge-primary badge-pill">Worked With, Self-Taught, Learning Core</span>
                                                     </li>
                                                     <li className="list-group-item d-flex justify-content-between align-items-center">
-                                                        <strong>Google App Engine & Firebase</strong>
-                                                        <span className="badge badge-primary badge-pill">Self-Taught</span>
-                                                        <span className="badge badge-primary badge-pill">University</span>
-                                                        <span className="badge badge-primary badge-pill">Working Experience</span>
+                                                        <strong>Umbraco 7 & 8</strong>
+                                                        <span className="badge badge-primary badge-pill">Worked With, Self-Taught</span>
                                                     </li>
                                                     <li className="list-group-item d-flex justify-content-between align-items-center">
-                                                        <strong>MERN Stack (Mongo, Express, React, Node)</strong>
-                                                        <span className="badge badge-primary badge-pill">Learning</span>
+                                                        <strong>MERN (Mongo, Express, React, Node) Stack or React + Firebase </strong>
+                                                        <span className="badge badge-primary badge-pill">Self-Taught, Learning</span>
                                                     </li>
-                                                    <p class="mx-auto mt-3">Key Tools, Environments or Software</p>
+                                                    <p class="mx-auto mt-3 text-center">Key Tools (latest versions), Environments, Serverless Environments, Databases or Software</p>
                                                     <li className="list-group-item d-flex justify-content-between align-items-center">
-                                                        <strong>Git, NPM, Nuget, RESTful APIs, VS Code, MongoDB (cloud and local), Visual Studio, SQL & SMSS, Postman, Papercut, Familliar with Linux servers, Window Server, IIS</strong>
+                                                        <strong>Git, Firebase, Google App Engine NPM, Nuget, RESTful APIs, VS Code, MongoDB (Atlas/local), Visual Studio, SQL & SMSS, Postman, Papercut, Familliar with Linux servers, Window Server, IIS</strong>
                                                     </li>
-                                                    <p class="mx-auto mt-3">Other Misc Skills</p>
+                                                    <p class="mx-auto mt-3">Other Familliarities</p>
                                                     <li className="list-group-item d-flex justify-content-between align-items-center">
-                                                        <strong>Familliar with Python, Flask and Django, as well as some data science libraries like SciKit learn.</strong>
+                                                        <strong>
+                                                            <ul>
+                                                                <li>Python</li>
+                                                                <li>Flask</li>
+                                                                <li>Django</li>
+                                                                <li>Basic Data Science (SciKit etc)</li>
+                                                            </ul>
+                                                        </strong>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -147,6 +144,23 @@ class About extends React.Component {
                                             <p>Adept at content migration etc.</p>
                                         </li>
                                     </ul>
+                                </div>
+                                <div className="card mb-3" >
+                                    <div className="row no-gutters">
+                                        <div className="col-md-6">
+                                            <img draggable="false" src={CodeMac} className="card-img" alt="This Website" />
+                                        </div>
+                                        <div className="col-md-6">
+                                            <div className="card-body">
+                                                <h5 className="card-title mx-3">This Website, built with React</h5>
+                                                <p className="card-text mx-3">
+                                                    Originally, I'd designed my site using .NET 4.7 and Umbraco 8. At the time this felt great, but then I thought...</p>
+                                                <p className="card-text mx-3">I don't need a SQL database for my site, I don't need all the extra frameworks... So why not simplify everything?</p>
+                                                <p className="card-text mx-3">I then used React with Bootstrap 4. I took design elements from my site but wrote it entirely from scratch as a SPA.</p>
+                                                <p className="card-text mx-3"><small className="text-muted">Released October 2019</small></p>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>

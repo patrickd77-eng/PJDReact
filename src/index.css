@@ -192,8 +192,20 @@ div>a>i {
     font-size: x-large;
 }
 
+.icon-large {
+    font-size: 30px;
+}
+
+.icon {
+    cursor: pointer;
+}
+
+a {
+    cursor: pointer;
+}
+
 .card {
-    background-color: rgba(0, 0, 0, .03);
+    background-color: rgba(46, 118, 167, 0.15);
     margin: 1em 0em;
 }
 
@@ -201,9 +213,16 @@ div>a>i {
     background-color: transparent !important;
 }
 
-.accordion>.card {
-    background-color: rgba(0, 0, 0, .03);
-    border: 0px !important;
+.accordion>.card:first-of-type {
+    background-color: rgba(46, 118, 167, 0.15);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.accordion>.card:first-of-type {
+    border-bottom: 1px !important;
 }
 
 .card-body {

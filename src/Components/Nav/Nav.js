@@ -6,7 +6,7 @@ class Nav extends React.Component {
     return (
       <nav className="navbar navbar-expand-md sticky-top navbar-dark bg-dark ">
         <NavLink exact className="navbar-brand" to="/">
-          <i className="fa fa-home" aria-hidden="true"></i>
+          <i className="icon icon-large fa fa-home" aria-hidden="true"></i>
         </NavLink>
         <button
           className="navbar-toggler"
@@ -17,7 +17,7 @@ class Nav extends React.Component {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span className="fas fa-chevron-circle-down"></span>
+          <span className="icon icon-large fas fa-chevron-circle-down"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div className="navbar-nav">
