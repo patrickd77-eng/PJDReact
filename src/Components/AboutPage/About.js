@@ -83,7 +83,7 @@ class About extends React.Component {
                                                     </li>
                                                     <p class="mx-auto mt-3">Frameworks/Libraries/CMS</p>
                                                     <li className="list-group-item d-flex justify-content-between align-items-center">
-                                                        <strong>.NET & Core</strong>
+                                                        <strong>.NET and Core</strong>
                                                         <span className="badge badge-primary badge-pill">Worked With, Self-Taught, Learning Core</span>
                                                     </li>
                                                     <li className="list-group-item d-flex justify-content-between align-items-center">
@@ -91,12 +91,12 @@ class About extends React.Component {
                                                         <span className="badge badge-primary badge-pill">Worked With, Self-Taught</span>
                                                     </li>
                                                     <li className="list-group-item d-flex justify-content-between align-items-center">
-                                                        <strong>MERN (Mongo, Express, React, Node) Stack or React + Firebase </strong>
+                                                        <strong>MERN (Mongo, Express, React, Node) Stack or using React + Firebase </strong>
                                                         <span className="badge badge-primary badge-pill">Self-Taught, Learning</span>
                                                     </li>
                                                     <p class="mx-auto mt-3 text-center">Key Tools (latest versions), Environments, Serverless Environments, Databases or Software</p>
                                                     <li className="list-group-item d-flex justify-content-between align-items-center">
-                                                        <strong>Git, Firebase, Google App Engine NPM, Nuget, RESTful APIs, VS Code, MongoDB (Atlas/local), Visual Studio, SQL & SMSS, Postman, Papercut, Familliar with Linux servers, Window Server, IIS</strong>
+                                                        <strong>Git, Firebase, Google App Engine, NPM, Nuget, RESTful APIs, VS Code, MongoDB (Atlas/Local), Visual Studio, SQL & SMSS, Postman, Papercut, Familliar with Linux servers, Windows Server, IIS</strong>
                                                     </li>
                                                     <p class="mx-auto mt-3">Other Familliarities</p>
                                                     <li className="list-group-item d-flex justify-content-between align-items-center">
