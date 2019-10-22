@@ -15,7 +15,7 @@ class ContactForm extends React.Component {
                                 <label class="form-control-label" for="form-group-input"><strong>Email*</strong></label>
                                 <input required type="email" class="form-control" id="form-group-input" name="Email" />
                             </div>
-                            <div class="form-group col-lg-8">
+                            <div class="form-group mx-auto col-lg-8">
                                 <label class="form-control-label" for="form-group-input"><strong>Message*</strong></label>
                                 <textarea required class="form-control" id="form-group-input" name="Message" rows="6"></textarea>
                             </div>
