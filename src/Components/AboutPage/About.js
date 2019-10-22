@@ -78,7 +78,7 @@ class About extends React.Component {
                                                         <span className="badge badge-primary badge-pill">Worked With, Self-Taught</span>
                                                     </li>
                                                     <li className="list-group-item d-flex justify-content-between align-items-center">
-                                                        <strong>HTTP Codes, Server Codes, Knowledge of common faults & windows/linux deployment</strong>
+                                                        <strong>HTTP, Error Codes, APIs, Dev Tools, Common Website faults, Deployment</strong>
                                                         <span className="badge badge-primary badge-pill">Worked With, Self-Taught</span>
                                                     </li>
                                                     <p class="mx-auto mt-3">Frameworks/Libraries/CMS</p>
@@ -94,20 +94,11 @@ class About extends React.Component {
                                                         <strong>MERN (Mongo, Express, React, Node) Stack or using React + Firebase </strong>
                                                         <span className="badge badge-primary badge-pill">Self-Taught, Learning</span>
                                                     </li>
-                                                    <p class="mx-auto mt-3 text-center">Key Tools (latest versions), Environments, Serverless Environments, Databases or Software</p>
+                                                    <p class="mx-auto mt-3 text-center">Other Key Tools & Familliarity/Experience</p>
                                                     <li className="list-group-item d-flex justify-content-between align-items-center">
-                                                        <strong>Git, Firebase, Google App Engine, NPM, Nuget, RESTful APIs, VS Code, MongoDB (Atlas/Local), Visual Studio, SQL & SMSS, Postman, Papercut, Familliar with Linux servers, Windows Server, IIS</strong>
-                                                    </li>
-                                                    <p class="mx-auto mt-3">Other Familliarities</p>
-                                                    <li className="list-group-item d-flex justify-content-between align-items-center">
-                                                        <strong>
-                                                            <ul>
-                                                                <li>Python</li>
-                                                                <li>Flask</li>
-                                                                <li>Django</li>
-                                                                <li>Basic Data Science (SciKit etc)</li>
-                                                            </ul>
-                                                        </strong>
+                                                        <strong>Git, Firebase, Google App Engine, NPM, Nuget, RESTful APIs,
+                                                        VS Code, MongoDB, Visual Studio, SQL & SMSS, Postman, Papercut,
+                                                        Familliar with Linux servers (nginx), Windows Server, IIS, Python, Django, Basic Data Science</strong>
                                                     </li>
                                                 </ul>
                                             </div>
