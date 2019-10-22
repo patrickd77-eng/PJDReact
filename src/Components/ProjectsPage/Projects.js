@@ -4,7 +4,8 @@ import Apostrophe from "../Media/Apostrophe.jpg";
 import Blog from "../Media/Blog.jpg";
 // import ChloeTextiles from "../Media/ChloeTextiles.jpg";
 // import JulieArt from "../Media/JulieArt.jpg";
-class Stuff extends React.Component {
+
+class Projects extends React.Component {
   render() {
     return (
       <div>
@@ -14,10 +15,10 @@ class Stuff extends React.Component {
             <p>Here's some of my projects. Check out my <a title="My GitHub" href="https://github.com/patrickd77-eng/" rel="noopener noreferrer" target="_blank">GitHub</a> for more info.</p>
             <div className="card mb-3" >
               <div className="row no-gutters">
-                <div className="col-md-6">
+                <div className="col-lg-6">
                   <a title="Link to Empaths Site" target="_blank" rel="noopener noreferrer" href="https://www.empathsofficial.com"> <img draggable="false" src={Empaths} className="card-img" alt="Empaths Musicians" /></a>
                 </div>
-                <div className="col-md-6">
+                <div className="col-lg-6">
                   <div className="card-body">
                     <h5 className="card-title mx-3">Empaths Official - Website</h5>
                     <p className="card-text mx-3">This site functions as a point of contact and breakdown about the music duo Empaths.</p>
@@ -31,10 +32,10 @@ class Stuff extends React.Component {
             </div>
             <div className="card mb-3" >
               <div className="row no-gutters">
-                <div className="col-md-6">
+                <div className="col-lg-6">
                   <a title="Link to Repo" target="_blank" rel="noopener noreferrer" href="https://github.com/patrickd77-eng/ApostropheCMSBootstrap4Skeleton"> <img draggable="false" src={Apostrophe} className="card-img" alt="Apostrophe CMS Logo" /></a>
                 </div>
-                <div className="col-md-6">
+                <div className="col-lg-6">
                   <div className="card-body">
                     <h5 className="card-title mx-3">Apostrophe CMS - Template Repository</h5>
                     <p className="card-text mx-3">
@@ -47,10 +48,10 @@ class Stuff extends React.Component {
             </div>
             <div className="card mb-3" >
               <div className="row no-gutters">
-                <div className="col-md-6">
+                <div className="col-lg-6">
                   <a title="Link to Repo" target="_blank" rel="noopener noreferrer" href="https://github.com/patrickd77-eng/DjangoBlogStarter"> <img draggable="false" src={Blog} className="card-img" alt="Apostrophe CMS Logo" /></a>
                 </div>
-                <div className="col-md-6">
+                <div className="col-lg-6">
                   <div className="card-body">
                     <h5 className="card-title mx-3">Blog - Template Repository</h5>
                     <p className="card-text mx-3">
@@ -68,4 +69,4 @@ class Stuff extends React.Component {
   }
 }
 
-export default Stuff;
+export default Projects;
