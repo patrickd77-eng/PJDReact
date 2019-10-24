@@ -74,12 +74,13 @@ class About extends React.Component {
                                                         <span className="badge badge-primary badge-pill">Worked With, Self-Taught</span>
                                                     </li>
                                                     <li className="list-group-item d-flex justify-content-between align-items-center">
-                                                        <strong>HTML & CSS (Bootsrap)</strong>
+                                                        <strong>HTML & CSS (Bootstrap 4)</strong>
                                                         <span className="badge badge-primary badge-pill">Worked With, Self-Taught</span>
                                                     </li>
                                                     <li className="list-group-item d-flex justify-content-between align-items-center">
-                                                        <strong>HTTP, Error Codes, APIs, Dev Tools, Common Website faults, Deployment</strong>
-                                                        <span className="badge badge-primary badge-pill">Worked With, Self-Taught</span>
+                                                        <strong>HTTP, Server Error Codes, APIs, Dev Tools, Common Website Faults, Deployment and all/most of the typical
+                                                        up-to-date software used by developers.</strong>
+                                                        <span className="badge badge-primary badge-pill"></span>
                                                     </li>
                                                     <p class="mx-auto mt-3">Frameworks/Libraries/CMS</p>
                                                     <li className="list-group-item d-flex justify-content-between align-items-center">

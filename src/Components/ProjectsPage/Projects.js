@@ -57,7 +57,7 @@ class Projects extends React.Component {
                     <p className="card-text mx-3">
                       This is a Bootstrap 4 blog template that I released using the Django Framework. Check it out! I figured it'd help someone starting out with django, which is useful for quick projects using authentication.</p>
                     <p className="card-text mx-3">Because this is a template repo with instructions, it's very easy to be used or developed on. With some extra styling, a fully functional CRUD capable blog could be made.</p>
-                    <p className="card-text mx-3"><small className="text-muted">September 2019 | <a className="btn btn-primary btn-sm" title="Link to Repo" target="_blank" rel="noopener noreferrer" href="https://github.com/patrickd77-eng/DjangoBlogStarter">Link To Repo</a> </small></p>
+                    <p className="card-text mx-3"><small className="text-muted">September 2019 | <a className="btn btn-primary btn-sm" title="Link to Repo" target="_blank" rel="noopener noreferrer" href="https://github.com/patrickd77-eng/DjangoBlogStarter">Link To Repo & Picture Tour</a> </small></p>
                   </div>
                 </div>
               </div>
