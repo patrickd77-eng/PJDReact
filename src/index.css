@@ -208,7 +208,7 @@ a {
 }
 
 .card {
-    background-color: rgba(46, 47, 48, 0.15);
+    background-color: rgba(46, 47, 48, 0.05);
     margin: 1em 0em;
 }
 
@@ -217,7 +217,7 @@ a {
 }
 
 .accordion>.card:first-of-type {
-    background-color: rgba(46, 47, 48, 0.15);
+    background-color: rgba(46, 47, 48, 0.05);
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
     border-bottom-left-radius: 5px;
