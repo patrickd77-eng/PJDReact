@@ -20,13 +20,13 @@ class Intro extends React.Component {
                   <div className="row">
                     <div className="col mt-5">
                       <NavLink to="/projects">
-                        <i className="icon fas fa-project-diagram" />
+                        <i className="icon grow icon-extralarge fas fa-project-diagram" />
                         <hr></hr>
                         <strong>Projects</strong>
                       </NavLink></div>
                     <div className="col mt-5">
                       <NavLink to="/contact">
-                        <i className="icon fas fa-envelope" />
+                        <i className="icon grow icon-extralarge fas fa-envelope" />
                         <hr></hr>
                         <strong>Contact Me</strong>
                       </NavLink></div>
@@ -34,14 +34,14 @@ class Intro extends React.Component {
                   <div className="row">
                     <div className="col mt-5">
                       <NavLink to="/about">
-                        <i className="icon fas fa-address-card " />
+                        <i className="icon grow icon-extralarge fas fa-address-card " />
                         <hr></hr>
                         <strong>About Me</strong>
                       </NavLink>
                     </div>
                     <div className="col mt-5">
                       <a title="Patrick Davis CV" target="_blank" rel="noopener noreferrer" href={CV}>
-                        <i className="icon fas fa-file-download " />
+                        <i className="icon grow icon-extralarge  fas fa-file-download " />
                         <hr></hr>
                         <strong>View My CV</strong>
                       </a>

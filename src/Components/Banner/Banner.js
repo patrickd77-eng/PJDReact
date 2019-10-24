@@ -7,12 +7,12 @@ class Banner extends React.Component {
             <section id="banner">
                 <div className="inner">
                     <header className="special">
-                        <h2>Patrick J Davis</h2>
+                        <h1>Patrick J Davis</h1>
                     </header>
-                    <p>Web Developer Undergraduate</p>
+                    <p>Junior Web Developer</p>
                 </div>
                 <img
-                    alt="code"
+                    alt="Code going across screen"
                     src={Code}
                 ></img>
             </section>

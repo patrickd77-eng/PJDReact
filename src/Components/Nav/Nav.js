@@ -3,8 +3,19 @@ import { NavLink } from "react-router-dom";
 
 class Nav extends React.Component {
   render() {
+    function changeClass() {
+      var navToggler = document.getElementById("navtoggle");
+      if (navToggler.classList.value.includes("fa-chevron-circle-down")) {
+        navToggler.classList.remove("fa-chevron-circle-down");
+        navToggler.classList.add("fa-chevron-circle-up");
+      }
+      else {
+        navToggler.classList.remove("fa-chevron-circle-up");
+        navToggler.classList.add("fa-chevron-circle-down");
+      }
+    }
     return (
-      <nav className="navbar navbar-expand-md sticky-top navbar-dark bg-dark ">
+      <nav className="navbar navbar-expand-sm sticky-top navbar-dark bg-dark ">
         <NavLink exact className="navbar-brand" to="/">
           <i className="icon icon-large fa fa-home" aria-hidden="true"></i>
         </NavLink>
@@ -16,8 +27,8 @@ class Nav extends React.Component {
           aria-controls="navbarNavAltMarkup"
           aria-expanded="false"
           aria-label="Toggle navigation"
-        >
-          <span className="icon icon-large fas fa-chevron-circle-down"></span>
+          onClick={changeClass}>
+          <span id="navtoggle" className="icon icon-large fas fa-chevron-circle-down"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div className="navbar-nav">
