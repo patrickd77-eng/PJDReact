@@ -25,7 +25,7 @@ class Home extends Component {
           </NavLink>
         </div>
         <div>
-          <img height="600" alt="An error message in animated gif form" className="mt-5 mb-5" src={fourohfour}></img>
+          <img width="100%" alt="An error message in animated gif form" className="mt-5 mb-5" src={fourohfour}></img>
         </div>
       </div>
     )
