@@ -30,6 +30,9 @@ class Intro extends React.Component {
                         <hr></hr>
                         <strong>Contact Me</strong>
                       </NavLink></div>
+                     
+                      </div>
+                      <div className="row">
                     <div class="col mt-3">
                       <NavLink to="/about">
                         <i className="icon fas fa-address-card " />
