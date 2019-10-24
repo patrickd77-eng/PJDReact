@@ -195,6 +195,9 @@ div>a>i {
 .icon-large {
     font-size: 30px;
 }
+.icon-extralarge {
+    font-size: 70px;
+}
 
 .icon {
     cursor: pointer;
