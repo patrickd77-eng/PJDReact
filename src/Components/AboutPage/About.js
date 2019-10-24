@@ -78,7 +78,7 @@ class About extends React.Component {
                                                         <span className="badge badge-primary badge-pill">Worked With, Self-Taught</span>
                                                     </li>
                                                     <li className="list-group-item d-flex justify-content-between align-items-center">
-                                                        <strong>HTTP, Server Error Codes, APIs, Dev Tools, Common Website Faults, Deployment and all/most of the typical
+                                                        <strong>HTTP, SSL Certificates, Server Error Codes, APIs, Dev Tools, Common Website Faults, Deployment and all/most of the typical
                                                         up-to-date software used by developers.</strong>
                                                         <span className="badge badge-primary badge-pill"></span>
                                                     </li>
