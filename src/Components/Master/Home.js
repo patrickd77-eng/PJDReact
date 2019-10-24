@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Route, HashRouter } from "react-router-dom";
+import { Route, BrowserRouter } from "react-router-dom";
 import Intro from "../Introduction/Intro";
 import Projects from "../ProjectsPage/Projects";
 import Contact from "../ContactPage/Contact";
@@ -11,7 +11,7 @@ import Footer from "../Footer/Footer"
 class Home extends Component {
   render() {
     return (
-      <HashRouter>
+      <BrowserRouter>
         <div>
           <Nav />
           <Banner />
@@ -25,7 +25,7 @@ class Home extends Component {
           </section>
           <Footer />
         </div>
-      </HashRouter>
+      </BrowserRouter>
     );
   }
 }
