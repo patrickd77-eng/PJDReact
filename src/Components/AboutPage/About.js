@@ -4,10 +4,20 @@ import CodeMac from "../Media/CodeMac.jpg";
 
 class About extends React.Component {
     render() {
+        function changeClass() {
+            var skillsToggler = document.getElementById("skillsToggler");
+            if (skillsToggler.classList.value.includes("fa-chevron-circle-down")) {
+                skillsToggler.classList.remove("fa-chevron-circle-down");
+                skillsToggler.classList.add("fa-chevron-circle-up");
+            }
+            else {
+                skillsToggler.classList.remove("fa-chevron-circle-up");
+                skillsToggler.classList.add("fa-chevron-circle-down");
+            }
+        }
         return (
             <div>
                 <section className="wrapper">
-
                     <div className="container">
                         <div className="row text-center">
                             <div className="col-lg-4 mb-4 ">
@@ -17,11 +27,12 @@ class About extends React.Component {
                                         <h5 className="card-title">Over a year in the Web Dev industry</h5>
                                         <h6 className="card-subtitle mb-2 text-muted">Please read my CV for more work history.</h6>
                                         <p className="card-text"> I have experience working with front end and back end technologies, scrum agile development, client proposals, software maintenance, planning and more.</p>
-                                        <div className="mx-auto center">
+                                        <div className="mx-auto mt-3 mb-3 center">
                                             <a title="Patrick Davis CV" target="_blank" rel="noopener noreferrer" href={CV} >
-                                                <i className="icon icon-large fas fa-file-download" />
-                                                <strong> Download My CV</strong>
-                                            </a></div>
+                                                <i className="icon grow icon-extralarge fas fa-file-download" />
+                                            </a>
+                                        </div>
+                                        <p> <strong> Download My CV</strong></p>
                                     </div>
                                 </div>
                             </div>
@@ -33,10 +44,12 @@ class About extends React.Component {
                                         <h6 className="card-subtitle mb-2 text-muted">BSc, Comp Science (Business Information Technology)</h6>
                                         <p className="card-text">Undergraduate. Course contains elements of programming, systems & infrastructure, data and business.
                                      Predicted 2/1.</p>
-                                        <a title="My Degree" href="https://www.bournemouth.ac.uk/study/courses/bsc-hons-business-information-technology" rel="noopener noreferrer" target="_blank">
-                                            <i class="icon icon-large fas fa-user-graduate" aria-hidden="true" />
-                                            <strong> Course Information</strong>
-                                        </a>
+                                        <div className="mx-auto mt-3 mb-3 center">
+                                            <a title="My Degree" href="https://www.bournemouth.ac.uk/study/courses/bsc-hons-business-information-technology" rel="noopener noreferrer" target="_blank">
+                                                <i class="icon grow icon-extralarge fas fa-user-graduate" aria-hidden="true" />
+                                            </a>
+                                        </div>
+                                        <p> <strong> Course Information</strong></p>
                                     </div>
                                 </div>
                                 <div className="card">
@@ -53,12 +66,11 @@ class About extends React.Component {
                         <div className="row">
                             <div className="col">
                                 <div className="accordion" id="accordion">
+                                    <h2 className="center">Skills and Tools</h2>
                                     <div className="card align-items-center">
                                         <div className="card-header " id="heading">
-                                            <button className="btn btn-link btn-lg " type="button" data-toggle="collapse" data-target="#collapse" aria-expanded="true" aria-controls="collapse">
-                                                Relevant Skills and Tools
-                                               <br />
-                                                <span className="icon icon-large fas fa-chevron-circle-down" aria-hidden="true"> </span>
+                                            <button onClick={changeClass} className="btn btn-link btn-lg " type="button" data-toggle="collapse" data-target="#collapse" aria-expanded="true" aria-controls="collapse">
+                                                <span id="skillsToggler" className="icon icon-large fas fa-chevron-circle-down" aria-hidden="true"> </span>
                                             </button>
                                         </div>
                                         <div id="collapse" className="collapse" aria-labelledby="headingOne" data-parent="#accordion">
