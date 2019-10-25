@@ -32,8 +32,8 @@ ul>a {
     background-size: cover;
     border-top: 0;
     display: -ms-flexbox;
-    height: 20rem !important;
-    min-height: 20rem;
+    height: 15rem !important;
+    min-height: 15rem;
     overflow: hidden;
     position: relative;
     text-align: center;
