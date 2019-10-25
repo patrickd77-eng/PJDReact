@@ -104,14 +104,14 @@ class About extends React.Component {
                                                         <span className="badge badge-primary badge-pill">Worked With, Self-Taught</span>
                                                     </li>
                                                     <li className="list-group-item d-flex justify-content-between align-items-center">
-                                                        <strong>MERN (Mongo, Express, React, Node) Stack or using React + Firebase </strong>
-                                                        <span className="badge badge-primary badge-pill">Self-Taught, Learning</span>
+                                                        <strong>React and NextJS</strong>
+                                                        <span className="badge badge-primary badge-pill">Learning</span>
                                                     </li>
                                                     <p class="mx-auto mt-3 text-center">Other Key Tools & Familliarity/Experience</p>
                                                     <li className="list-group-item d-flex justify-content-between align-items-center">
                                                         <strong>Git, Firebase, Google App Engine, NPM, Nuget, RESTful APIs,
                                                         VS Code, MongoDB, Visual Studio, SQL & SMSS, Postman, Papercut,
-                                                        Familliar with Linux servers (nginx), Windows Server, IIS, Python, Django, Basic Data Science</strong>
+                                                        Familliar with Linux & nginx, Windows Server, IIS, Basic Python, Django</strong>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -129,9 +129,6 @@ class About extends React.Component {
                                        </li>
                                         <li className="list-group-item">Complete ASP NET MVC Web Development - Newbie to Ninja!
                                              By Brett Hargreaves
-                                      </li>
-                                        <li className="list-group-item">MERN Stack Front to Back
-                                               By Traversy Media
                                       </li>
                                     </ul>
                                 </div>
