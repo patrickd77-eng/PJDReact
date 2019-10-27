@@ -1,6 +1,7 @@
 import React from "react";
 import CV from "../Introduction/PJDCV2019.pdf";
 import CodeMac from "../Media/CodeMac.jpg";
+import {Helmet} from "react-helmet"; 
 
 class About extends React.Component {
     render() {
@@ -17,6 +18,9 @@ class About extends React.Component {
         }
         return (
             <div>
+            <Helmet>
+                <title>About Me | PJD</title> 
+            </Helmet>
                 <section className="wrapper">
                     <div className="container">
                         <div className="row text-center">

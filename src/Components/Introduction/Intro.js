@@ -1,10 +1,15 @@
 import React from "react";
 import CV from "./PJDCV2019.pdf"
 import { NavLink } from "react-router-dom";
+import {Helmet} from "react-helmet"; 
+
 class Intro extends React.Component {
   render() {
     return (
-      <div>
+      <div> 
+       <Helmet>
+      <title>Web Developer | PJD</title>
+    </Helmet>
         <section className="wrapper ">
           <div className="home-inner">
             <div className="container mx-auto d-block">

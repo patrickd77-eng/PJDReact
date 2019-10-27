@@ -15,6 +15,7 @@ class Home extends Component {
   render() {
     const NoMatch = ({ location }) => (
       <div className="center mt-5">
+    
         <div>
           <h3>No page exists at <code>{location.pathname}</code>, sorry.</h3>
         </div>

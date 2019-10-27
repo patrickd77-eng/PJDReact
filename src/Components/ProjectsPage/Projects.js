@@ -2,13 +2,15 @@ import React from "react";
 import Empaths from "../Media/Empaths.jpg";
 import Apostrophe from "../Media/Apostrophe.jpg";
 import Blog from "../Media/Blog.jpg";
-// import ChloeTextiles from "../Media/ChloeTextiles.jpg";
-// import JulieArt from "../Media/JulieArt.jpg";
+import { Helmet } from "react-helmet";
 
 class Projects extends React.Component {
   render() {
     return (
       <div>
+        <Helmet>
+          <title>My Work | PJD</title>
+        </Helmet>
         <section className="wrapper">
           <div className="container containerCustom">
             <h1>Projects</h1>

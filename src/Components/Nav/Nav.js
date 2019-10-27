@@ -32,18 +32,26 @@ class Nav extends React.Component {
         </button>
         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div className="navbar-nav">
-            <NavLink exact className="nav-item nav-link" to="/">
-              Home
+            <div data-toggle="collapse" data-target=".navbar-collapse.show">
+              <NavLink exact className="nav-item nav-link" to="/">
+                Home
                 </NavLink>
-            <NavLink className="nav-item nav-link" to="/projects">
-              Projects
+            </div>
+            <div data-toggle="collapse" data-target=".navbar-collapse.show">
+              <NavLink className="nav-item nav-link" to="/projects">
+                Projects
                 </NavLink>
-            <NavLink className="nav-item nav-link" to="/contact">
-              Contact
+            </div>
+            <div data-toggle="collapse" data-target=".navbar-collapse.show" >
+              <NavLink className="nav-item nav-link" to="/contact">
+                Contact
                 </NavLink>
-            <NavLink className="nav-item nav-link" to="/about">
-              About Me
+            </div>
+            <div data-toggle="collapse" data-target=".navbar-collapse.show">
+              <NavLink className="nav-item nav-link" to="/about">
+                About Me
                 </NavLink>
+            </div>
           </div>
         </div>
       </nav>
