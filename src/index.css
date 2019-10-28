@@ -186,7 +186,7 @@ div>a>i {
 .navbar-dark .navbar-toggler {
     color: rgba(255, 255, 255, 1);
     border-color: none;
-    border:none;
+    border: none;
 }
 
 .bg-dark {
@@ -267,6 +267,10 @@ body {
     color: white;
 }
 
+.white {
+    color: white;
+}
+
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, section {
     display: block;
 }
@@ -295,13 +299,18 @@ header.special {
     margin: 0 auto;
     text-align: center;
 }
-.grow { transition: all .2s ease-in-out; }
-.grow:hover { transform: scale(1.1); }
+
+.grow {
+    transition: all .2s ease-in-out;
+}
+
+.grow:hover {
+    transform: scale(1.1);
+}
 
 .highlights>.content>p {
     width: 50%;
 }
-
 
 .hidden {
     display: none;

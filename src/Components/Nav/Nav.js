@@ -17,7 +17,7 @@ class Nav extends React.Component {
     return (
       <nav className="navbar navbar-expand-sm sticky-top navbar-dark bg-dark ">
         <NavLink exact className="navbar-brand" to="/">
-          <i className="icon icon-large fa fa-home" aria-hidden="true"></i>
+          <i data-toggle="collapse" data-target=".navbar-collapse.show" className="icon icon-large fa fa-home" aria-hidden="true"></i>
         </NavLink>
         <button
           className="navbar-toggler"
