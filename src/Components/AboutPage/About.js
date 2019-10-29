@@ -86,7 +86,7 @@ class About extends React.Component {
                                                         <span className="badge badge-primary badge-pill">Worked With, Self-Taught</span>
                                                     </li>
                                                     <li className="list-group-item d-flex justify-content-between align-items-center">
-                                                        <strong>JavaScript</strong>
+                                                        <strong>JavaScript and jQuery</strong>
                                                         <span className="badge badge-primary badge-pill">Worked With, Self-Taught</span>
                                                     </li>
                                                     <li className="list-group-item d-flex justify-content-between align-items-center">
@@ -94,13 +94,13 @@ class About extends React.Component {
                                                         <span className="badge badge-primary badge-pill">Worked With, Self-Taught</span>
                                                     </li>
                                                     <li className="list-group-item d-flex justify-content-between align-items-center">
-                                                        <strong>HTTP, SSL Certificates, Server Error Codes, APIs, Dev Tools, Common Website Faults, Deployment and all/most of the typical
+                                                        <strong>HTTP, SSL Certificates, Server Error Codes, APIs, Dev Tools, Common Website Faults, Deployment, The typical
                                                         up-to-date software used by developers.</strong>
                                                         <span className="badge badge-primary badge-pill"></span>
                                                     </li>
                                                     <p class="mx-auto mt-3">Frameworks/Libraries/CMS</p>
                                                     <li className="list-group-item d-flex justify-content-between align-items-center">
-                                                        <strong>.NET and Core</strong>
+                                                        <strong>.NET and .Net Core</strong>
                                                         <span className="badge badge-primary badge-pill">Worked With, Self-Taught, Learning Core</span>
                                                     </li>
                                                     <li className="list-group-item d-flex justify-content-between align-items-center">
