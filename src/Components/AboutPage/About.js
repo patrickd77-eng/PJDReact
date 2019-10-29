@@ -125,13 +125,13 @@ class About extends React.Component {
                                 <div className="mt-5">
                                     <h2 className="center">Udemy Courses</h2>
                                     <ul className="list-group list-group-horizontal-sm">
-                                        <li className="list-group-item">The Complete Web Developer in 2019: Zero to Mastery
+                                        <li className="list-group-item">The Complete Web Developer in 2019
                                             By Andrei Neagoie
                                         </li>
                                         <li className="list-group-item">The Complete Junior to Senior Web Developer Roadmap (2019)
                                              By Andrei Neagoie
                                        </li>
-                                        <li className="list-group-item">Complete ASP NET MVC Web Development - Newbie to Ninja!
+                                        <li className="list-group-item">Complete ASP NET MVC Web Development
                                              By Brett Hargreaves
                                       </li>
                                     </ul>
