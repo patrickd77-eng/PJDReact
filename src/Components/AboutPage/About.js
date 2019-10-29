@@ -1,7 +1,7 @@
 import React from "react";
 import CV from "../Introduction/PJDCV2019.pdf";
 import CodeMac from "../Media/CodeMac.jpg";
-import {Helmet} from "react-helmet"; 
+import { Helmet } from "react-helmet";
 
 class About extends React.Component {
     render() {
@@ -18,9 +18,9 @@ class About extends React.Component {
         }
         return (
             <div>
-            <Helmet>
-                <title>About Me | PJD</title> 
-            </Helmet>
+                <Helmet>
+                    <title>About Me | PJD</title>
+                </Helmet>
                 <section className="wrapper">
                     <div className="container">
                         <div className="row text-center">
@@ -124,7 +124,7 @@ class About extends React.Component {
                                 </div>
                                 <div className="mt-5">
                                     <h2 className="center">Udemy Courses</h2>
-                                    <ul className="list-group list-group-vertical-sm">
+                                    <ul className="list-group list-group-horizontal-sm">
                                         <li className="list-group-item">The Complete Web Developer in 2019: Zero to Mastery
                                             By Andrei Neagoie
                                         </li>
@@ -133,6 +133,17 @@ class About extends React.Component {
                                        </li>
                                         <li className="list-group-item">Complete ASP NET MVC Web Development - Newbie to Ninja!
                                              By Brett Hargreaves
+                                      </li>
+                                    </ul>
+                                    <h2 className="center mt-4">Wishlist/To Study</h2>
+                                    <ul className="list-group list-group-horizontal-sm">
+                                        <li className="list-group-item">An ethical hacking and security guide by Zaid Sabih.
+                                      </li>
+                                        <li className="list-group-item">Computer Science 101: Master the Theory Behind Programming
+                                              By Kurt Anderson
+                                      </li>
+                                        <li className="list-group-item">Introduction to Computer Networks
+                                          By Alton Hardin
                                       </li>
                                     </ul>
                                 </div>
