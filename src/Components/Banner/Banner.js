@@ -9,7 +9,7 @@ class Banner extends React.Component {
                     <header className="special">
                         <h1>Patrick J Davis</h1>
                     </header>
-                    <p>Junior Web Developer</p>
+                    <p>Junior Developer</p>
                 </div>
                 <img
                     alt="Code going across screen"

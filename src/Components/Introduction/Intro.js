@@ -1,15 +1,15 @@
 import React from "react";
 import CV from "./PJDCV2019.pdf"
 import { NavLink } from "react-router-dom";
-import {Helmet} from "react-helmet"; 
+import { Helmet } from "react-helmet";
 
 class Intro extends React.Component {
   render() {
     return (
-      <div> 
-       <Helmet>
-      <title>Web Developer | PJD</title>
-    </Helmet>
+      <div>
+        <Helmet>
+          <title>Developer | PJD</title>
+        </Helmet>
         <section className="wrapper ">
           <div className="home-inner">
             <div className="container mx-auto d-block">
@@ -21,7 +21,8 @@ class Intro extends React.Component {
               <section>
                 <div className="content">
                   <h3 className="mb-5">Welcome to my site</h3>
-                  <p className="mb-5">I'm a web developer and once I graduate I'd like to continue to work professionally with .NET and JavaScript based technologies. Take a look around!</p>
+                  <p className="mb-5">I'm a junior developer studying at Bournemouth University.</p>
+                  <p>Once I graduate, I'd like to work professionally with .NET and C#. Take a look around!</p>
                   <div className="row">
                     <div className="col mt-5">
                       <NavLink to="/projects">

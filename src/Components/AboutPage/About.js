@@ -24,43 +24,23 @@ class About extends React.Component {
                 <section className="wrapper">
                     <div className="container">
                         <div className="row text-center">
-                            <div className="col-lg-4 mb-4 ">
-                                <h2 className="center">Relevant Working Experience</h2>
-                                <div className="card ">
-                                    <div className="card-body ">
-                                        <h5 className="card-title">Over a year in the Web Dev industry</h5>
-                                        <h6 className="card-subtitle mb-2 text-muted">Please read my CV for more work history.</h6>
-                                        <p className="card-text"> I have experience working with front end and back end technologies, scrum agile development, client proposals, software maintenance, planning and more.</p>
+                            <div className="col mb-4">
+                                <h2 className="center">Working Experience and Education History</h2>
+                                <div className="card">
+                                    <div className="mx-5 card-body">
+                                        <h5 className="mt-3 card-title">1yr+ Junior Industrial Experience</h5>
+                                        <p className="card-text mx-5"> I have experience working with front end and back end technologies, scrum agile development, client proposals, software maintenance, planning and more.</p>
+                                        <h5 className="card-title">A degree in computer science</h5>
+                                        <p className="card-text mx-5">My BSc Business I.T. teaches many disciplines and is very relevant to modern development and infrastructure practises.</p>
+
+
+                                    </div>
+                                    <div className="card-body">
                                         <div className="mx-auto mt-3 mb-3 center">
                                             <a title="Patrick Davis CV" target="_blank" rel="noopener noreferrer" href={CV} >
                                                 <i className="icon grow icon-extralarge fas fa-file-download" />
-                                            </a>
+                                                <p className="mt-2"> <strong>Download My CV for more information</strong></p> </a>
                                         </div>
-                                        <p> <strong> Download My CV</strong></p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-lg-8 mt-2">
-                                <h2 className="center">Education History</h2>
-                                <div className="card">
-                                    <div className="card-body">
-                                        <h5 className="card-title">Bournemouth University</h5>
-                                        <h6 className="card-subtitle mb-2 text-muted">BSc, Comp Science (Business Information Technology)</h6>
-                                        <p className="card-text">Undergraduate. Course contains elements of programming, systems & infrastructure, data and business.
-                                     Predicted 2/1.</p>
-                                        <div className="mx-auto mt-3 mb-3 center">
-                                            <a title="My Degree" href="https://www.bournemouth.ac.uk/study/courses/bsc-hons-business-information-technology" rel="noopener noreferrer" target="_blank">
-                                                <i class="icon grow icon-extralarge fas fa-user-graduate" aria-hidden="true" />
-                                            </a>
-                                        </div>
-                                        <p> <strong> Course Information</strong></p>
-                                    </div>
-                                </div>
-                                <div className="card">
-                                    <div className="card-body">
-                                        <h5 className="card-title">A Levels</h5>
-                                        <h6 className="card-subtitle mb-2 text-muted">Business, English Literature, Information Technology</h6>
-                                        <p className="card-text">  AAA* grades.  DofE Gold Award.  </p>
                                     </div>
                                 </div>
                             </div>
@@ -94,13 +74,12 @@ class About extends React.Component {
                                                         <span className="badge badge-primary badge-pill">Worked With, Self-Taught</span>
                                                     </li>
                                                     <li className="list-group-item d-flex justify-content-between align-items-center">
-                                                        <strong>HTTP, SSL Certificates, Server Error Codes, APIs, Dev Tools, Common Website Faults, Deployment, The typical
-                                                        up-to-date software used by developers.</strong>
+                                                        <strong>HTTP, SSL Certificates, Server Error Codes, APIs, Dev Tools, Common Website Faults, Deployment Patterns.</strong>
                                                         <span className="badge badge-primary badge-pill"></span>
                                                     </li>
                                                     <p class="mx-auto mt-3">Frameworks/Libraries/CMS</p>
                                                     <li className="list-group-item d-flex justify-content-between align-items-center">
-                                                        <strong>.NET and .Net Core</strong>
+                                                        <strong>.NET and learning .NET Core</strong>
                                                         <span className="badge badge-primary badge-pill">Worked With, Self-Taught, Learning Core</span>
                                                     </li>
                                                     <li className="list-group-item d-flex justify-content-between align-items-center">
@@ -114,8 +93,8 @@ class About extends React.Component {
                                                     <p class="mx-auto mt-3 text-center">Other Key Tools & Familliarity/Experience</p>
                                                     <li className="list-group-item d-flex justify-content-between align-items-center">
                                                         <strong>Git, Firebase, Google App Engine, NPM, Nuget, RESTful APIs,
-                                                        VS Code, MongoDB, Visual Studio, SQL & SMSS, Postman, Papercut,
-                                                        Familliar with Linux & nginx, Windows Server, IIS, Basic Python, Django</strong>
+                                                        VS Code, MongoDB, Sitecore, Visual Studio, SQL & SMSS, Postman, Papercut,
+                                                        Familliar with Linux & Nginx, Windows Server, IIS, Basic Python, Django</strong>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -123,7 +102,9 @@ class About extends React.Component {
                                     </div>
                                 </div>
                                 <div className="mt-5">
-                                    <h2 className="center">Udemy Courses</h2>
+                                    <h2 className="center">Udemy Courses Studied/Wishlist</h2>
+                                    <div className="center"><p>My learning didn't stop past my placement year or at university.</p>
+                                        <p>I follow Udemy Courses in my spare time also</p></div>
                                     <ul className="list-group list-group-horizontal-sm">
                                         <li className="list-group-item">The Complete Web Developer in 2019
                                             By Andrei Neagoie
@@ -134,16 +115,12 @@ class About extends React.Component {
                                         <li className="list-group-item">Complete ASP NET MVC Web Development
                                              By Brett Hargreaves
                                       </li>
-                                    </ul>
-                                    <h2 className="center mt-4">Wishlist/To Study</h2>
-                                    <ul className="list-group list-group-horizontal-sm">
                                         <li className="list-group-item">An ethical hacking and security guide by Zaid Sabih.
                                       </li>
                                         <li className="list-group-item">Computer Science 101: Master the Theory Behind Programming
                                               By Kurt Anderson
                                       </li>
-                                        <li className="list-group-item">Introduction to Computer Networks
-                                          By Alton Hardin
+                                        <li className="list-group-item">The Complete C# Course
                                       </li>
                                     </ul>
                                 </div>
