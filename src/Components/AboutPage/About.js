@@ -30,10 +30,9 @@ class About extends React.Component {
                                     <div className="mx-5 card-body">
                                         <h5 className="mt-3 card-title">1yr+ Junior Industrial Experience</h5>
                                         <p className="card-text mx-5"> I have experience working with front end and back end technologies, scrum agile development, client proposals, software maintenance, planning and more.</p>
-                                        <h5 className="card-title">A degree in computer science</h5>
-                                        <p className="card-text mx-5">My BSc Business I.T. teaches many disciplines and is very relevant to modern development and infrastructure practises.</p>
-
-
+                                        <h5 className="card-title">A BSc in a computer science pathway</h5>
+                                        <p className="card-text mx-5">My BSc in Business I.T. teaches many disciplines and is very relevant to modern development and infrastructure.</p>
+                                        <p className="card-text mx-5">It is not just about development, but also the processes around developing, storing data and infrastructure. For example, cloud computing and business resilience.</p>
                                     </div>
                                     <div className="card-body">
                                         <div className="mx-auto mt-3 mb-3 center">
@@ -104,24 +103,20 @@ class About extends React.Component {
                                 <div className="mt-5">
                                     <h2 className="center">Udemy Courses Studied/Wishlist</h2>
                                     <div className="center"><p>My learning didn't stop past my placement year or at university.</p>
-                                        <p>I follow Udemy Courses in my spare time also</p></div>
+                                        <p>I follow Udemy Courses in my spare time also, some examples...</p></div>
                                     <ul className="list-group list-group-horizontal-sm">
-                                        <li className="list-group-item">The Complete Web Developer in 2019
+                                        <li className="list-group-item">The Complete Web Developer in 2020
                                             By Andrei Neagoie
                                         </li>
-                                        <li className="list-group-item">The Complete Junior to Senior Web Developer Roadmap (2019)
+                                        <li className="list-group-item">The Complete Junior to Senior Web Developer Roadmap (2020)
                                              By Andrei Neagoie
                                        </li>
                                         <li className="list-group-item">Complete ASP NET MVC Web Development
                                              By Brett Hargreaves
                                       </li>
-                                        <li className="list-group-item">An ethical hacking and security guide by Zaid Sabih.
+                                        <li className="list-group-item">The Complete C# programming Course
                                       </li>
-                                        <li className="list-group-item">Computer Science 101: Master the Theory Behind Programming
-                                              By Kurt Anderson
-                                      </li>
-                                        <li className="list-group-item">The Complete C# Course
-                                      </li>
+
                                     </ul>
                                 </div>
                                 <div className="mt-5 mb-5">
@@ -147,10 +142,10 @@ class About extends React.Component {
                                             <div className="card-body">
                                                 <h5 className="card-title mx-3">This Website, built with React</h5>
                                                 <p className="card-text mx-3">
-                                                    Originally, I'd designed my site using .NET 4.7 and Umbraco 8. At the time this felt great, but then I thought...</p>
-                                                <p className="card-text mx-3">I don't need a SQL database for my site, I don't need all the extra frameworks... So why not simplify everything?</p>
-                                                <p className="card-text mx-3">I then used React with Bootstrap 4. I took design elements from my site but wrote it entirely from scratch as a SPA.</p>
-                                                <p className="card-text mx-3"><small className="text-muted">Released October 2019</small></p>
+                                                    Originally, I'd designed my site using .NET 4.7 and Umbraco 8.</p>
+                                                <p className="card-text mx-3">I realised I didn't need SQL and I don't need all the extra dependencies.</p>
+                                                <p className="card-text mx-3">I then simply used React with Bootstrap 4, serving the site statically from my Linux server.</p>
+                                                <p className="card-text mx-3"><small className="text-muted">October 2019</small></p>
                                             </div>
                                         </div>
                                     </div>

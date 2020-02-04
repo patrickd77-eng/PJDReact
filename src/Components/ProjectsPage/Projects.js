@@ -1,7 +1,8 @@
 import React from "react";
-import Empaths from "../Media/Empaths.jpg";
 import Apostrophe from "../Media/Apostrophe.jpg";
 import Blog from "../Media/Blog.jpg";
+import Tech from "../Media/Tech.png";
+import Empaths from "../Media/Empaths.png";
 import { Helmet } from "react-helmet";
 
 class Projects extends React.Component {
@@ -18,16 +19,30 @@ class Projects extends React.Component {
             <div className="card mb-3" >
               <div className="row no-gutters">
                 <div className="col-lg-6">
-                  <a title="Link to Empaths Site" target="_blank" rel="noopener noreferrer" href="https://www.empathsofficial.com"> <img draggable="false" src={Empaths} className="card-img" alt="Empaths Musicians" /></a>
+                  <img draggable="false" src={Tech} className="card-img" alt="Apostrophe CMS Logo" />
                 </div>
                 <div className="col-lg-6">
                   <div className="card-body">
-                    <h5 className="card-title mx-3">Empaths Official - Website</h5>
-                    <p className="card-text mx-3">This site functions as a point of contact and breakdown about the music duo Empaths.</p>
+                    <h5 className="card-title mx-3">My Final Year Project</h5>
+                    <p className="card-text mx-3">This is a web app that will be used by a retail company to track/manage staff training progress.</p>
+                    <p className="card-text mx-3">Written in .NET Core 3+ using React and TypeScript.</p>
+                    <p className="card-text mx-3"><small className="text-muted">2020 - Unifinished</small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="card mb-3" >
+              <div className="row no-gutters">
+                <div className="col-lg-6">
+                  <img draggable="false" src={Empaths} className="card-img" alt="Apostrophe CMS Logo" />
+                </div>
+                <div className="col-lg-6">
+                  <div className="card-body">
+                    <h5 className="card-title mx-3">A band's website</h5>
+                    <p className="card-text mx-3">This site functioned as a point of contact and platform for a new music duo.</p>
                     <p className="card-text mx-3">I included Fontawesome & some of hvr.css for further styling.</p>
-                    <p className="card-text mx-3">The site is served statically for the ultimate speed and caching policy.</p>
-                    <p className="card-text mx-3">The motivation for this site help out an upcoming music duo increase brand awareness and have a responsive and smooth digital platform to communicate through.</p>
-                    <p className="card-text mx-3"><small className="text-muted">2019 | <a className="btn btn-primary btn-sm" title="Link to site" target="_blank" rel="noopener noreferrer" href="https://www.empathsofficial.com">Link To Site</a> </small></p>
+                    <p className="card-text mx-3">The site was served statically for the ultimate speed and caching policy.</p>
+                    <p className="card-text mx-3"><small className="text-muted">2019 - Ended</small></p>
                   </div>
                 </div>
               </div>
