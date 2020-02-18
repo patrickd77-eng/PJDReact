@@ -25,7 +25,7 @@ class Projects extends React.Component {
                   <div className="card-body">
                     <h5 className="card-title mx-3">My Final Year Project</h5>
                     <p className="card-text mx-3">This is a web app that will be used by a retail company to track/manage staff training progress.</p>
-                    <p className="card-text mx-3">Written in .NET Core 3+ using React and TypeScript.</p>
+                    <p className="card-text mx-3">Written with .NET Core 3.1</p>
                     <p className="card-text mx-3"><small className="text-muted">2020 - Unifinished</small></p>
                   </div>
                 </div>
