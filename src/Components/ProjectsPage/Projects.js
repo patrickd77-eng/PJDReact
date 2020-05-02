@@ -1,7 +1,7 @@
 import React from "react";
 import Apostrophe from "../Media/Apostrophe.jpg";
 import Blog from "../Media/Blog.jpg";
-import Tech from "../Media/Tech.png";
+import FinalYearProject from "../Media/finalyearapp.png";
 import Empaths from "../Media/Empaths.png";
 import { Helmet } from "react-helmet";
 
@@ -19,14 +19,15 @@ class Projects extends React.Component {
             <div className="card mb-3" >
               <div className="row no-gutters">
                 <div className="col-lg-6">
-                  <img draggable="false" src={Tech} className="card-img" alt="Apostrophe CMS Logo" />
+                  <img draggable="false" src={FinalYearProject} className="card-img" alt="Apostrophe CMS Logo" />
                 </div>
                 <div className="col-lg-6">
                   <div className="card-body">
                     <h5 className="card-title mx-3">My Final Year Project</h5>
-                    <p className="card-text mx-3">This is a web app that will be used by a retail company to track/manage staff training progress.</p>
-                    <p className="card-text mx-3">Written with .NET Core 3.1</p>
-                    <p className="card-text mx-3"><small className="text-muted">2020 - Unifinished</small></p>
+                    <p className="card-text mx-3">This is a web app that will be used by a retail company to track and manage staff training progress.</p>
+                    <p className="card-text mx-3">Written with .NET Core C# MVC</p>
+                    <p className="card-text mx-3">Private due to sensitive data, but a showcase is available on request</p>
+                    <p className="card-text mx-3"><small className="text-muted">2020 - Ended</small></p>
                   </div>
                 </div>
               </div>
